@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+
+.my-name {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.nav-link {
+    color: rgb(44, 44, 44);
+}
