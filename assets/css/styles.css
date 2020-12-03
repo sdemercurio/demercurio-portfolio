@@ -5,12 +5,20 @@
 
 /* NAV BAR */
 
-.my-name {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
-    color: black;
+.navbar-custom {
+    background-color: rgb(209, 179, 209);
 }
 
-.nav-link {
-    color: rgb(44, 44, 44);
+.navbar-custom .nav-link {
+    color: rgb(78, 78, 78);
+}
+
+.navbar-custom .my-name {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    color:  rgb(78, 78, 78);
+}
+
+.navbar-custom a:hover {
+    color: rgb(133, 131, 131);
 }
