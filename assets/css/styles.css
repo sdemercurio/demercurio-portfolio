@@ -59,3 +59,21 @@ p {
     font-size: 40px;
     font-weight: 200;
 }
+
+
+/* FOOTER */
+
+i {
+    color: black;
+    font-size: 30px;
+    margin: 40px 10px 0 0;
+}
+
+i:hover {
+    color: darkgrey;
+}
+
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+}
