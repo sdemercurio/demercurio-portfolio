@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: darksalmon;
+}
+
 /* NAV BAR */
 
 .navbar-custom {
@@ -55,6 +59,28 @@ p {
 }
 
 .bold-text {
+    font-family: 'Castoro', serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h1 {
+    font-family: 'Castoro', serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+
+/* CONTACT */
+
+.side-content {
+    margin: 40px 0 10px 20px;
+    min-height: 150px;
+    text-align: center;
+    font-size: large;
+}
+
+.side-content .contact {
     font-family: 'Castoro', serif;
     font-size: 40px;
     font-weight: 200;

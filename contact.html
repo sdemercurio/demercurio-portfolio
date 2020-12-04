@@ -13,12 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b196033c57.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <!-- NAVIGATION BAR -->
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+    <!-- NAVIGATION BAR --> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom navbar-fluid">
             <a class="my-name" href="index.html">SARAH L. DeMERCURIO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +28,75 @@
             <div class="nav-right ml-auto">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link work" href="portfolio.html">Work <span class="sr-only">(current)</span></a>
+                        <a class="nav-link work" href="portfolio.html">Work</a>
                         <a class="nav-link contact" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
         </nav>
-    </div>
+
+    <!-- IMAGE -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./assets/images/contact.jpg" class="img-fluid pull-left" alt="illustration of night sky and woman making contact with a planet">
+            <p>Illustration by Sarah DeMercurio</p>
+        </div>
+       
+    <!-- CONTACT INFO AND FORM -->
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="side-content">
+                    <h1>Let's Make Contact</h1>
+                    <section class="resume-section text-left" id="contact">
+                    <form
+                    class="contact-form d-flex flex-column align-items-center"
+                    action="https://formspree.io/youremail@mail.com"
+                    method="POST"
+                  >
+                    <div class="form-group w-100">
+                      <input
+                        type="name"
+                        class="form-control"
+                        placeholder="Name"
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div class="form-group w-100">
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                        name="name"
+                        required
+                      />
+                    </div>
+        
+                    <div class="form-group w-100">
+                      <textarea
+                        class="form-control"
+                        type="text"
+                        placeholder="Message"
+                        rows="7"
+                        name="name"
+                        required
+                      ></textarea>
+                    </div>
+        
+                    <button type="submit" class="btn btn-submit btn-info w-25">Submit</button>
+                  </form>
+                  </div>
+                </section>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+
+    </div>        
+</div>
 
     
 
@@ -41,7 +104,8 @@
     <!-- FOOTER -->
 <footer>
     <div class="row text-center">
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+        </div>
         <div class="col-md-4 social-icons">
             <a href="https://www.instagram.com/s.demercurio/" target="blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/sarah-demercurio-a8507517/" target="blank"><i class="fab fa-linkedin-in"></i></a>
