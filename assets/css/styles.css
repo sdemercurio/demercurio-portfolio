@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-body {
-    background-color: darksalmon;
+.row {
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* NAV BAR */
