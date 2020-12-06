@@ -12,9 +12,9 @@ The Navbar was to be consistent on each page with working links to the Portfolio
 Using semantic html was a must, as well as validating the html.s Lastly, we were required to include our personal information ie. social media links, pictures, etc.
 
 ## Screenshots
-![About/Home screenshot](./assets/images/about.png)
-![Portfolio/Work screenshot](./assets/images/portfolio.png)
-![Contact screenshot](./assets/images/contact.png)
+<img src="about.png"
+    alt="screenshot of completed about me page" />
+
 
 ## Technologies
 * Bootstrap 4
