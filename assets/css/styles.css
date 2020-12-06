@@ -35,22 +35,30 @@
     color: rgb(133, 131, 131);
 }
 
-/* HEADER */
+/* Container */
 
 
-/* Columns */
+/* About Me Section */
 
 .about-me {
     margin-top: 40px;
 }
 
-/* IMAGES */
+/* Images */
 
 .img-fluid {
     margin-top: 50px;
 }
 
-/* TEXT STYLES */
+.rounded {
+    margin-top: 10px;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+/* text styles */
 
 p {
     font-family: futura-pt, sans-serif;
@@ -105,6 +113,8 @@ i:hover {
     margin-right: auto;
 }
 
+/* When the screen width is less than 990px,
+the menu options will center align */
 @media (max-width: 990px) {
     .contact {
       margin-right: 0;
