@@ -12,7 +12,14 @@ The Navbar was to be consistent on each page with working links to the Portfolio
 Using semantic html was a must, as well as validating the html.s Lastly, we were required to include our personal information ie. social media links, pictures, etc.
 
 ## Screenshots
+### About Me/Home
 ![About Me page](assets/images/about.PNG)
+
+### Portfolio/Work
+![Portfolio/Work Page](assets/images/portfolio.PNG)
+
+### Contact
+![Contact Page](assets/images/contact.PNG)
 
 
 ## Technologies
