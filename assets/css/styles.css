@@ -104,3 +104,9 @@ i:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 990px) {
+    .contact {
+      margin-right: 0;
+    }
+  }
