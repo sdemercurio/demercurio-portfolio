@@ -29,6 +29,8 @@ Using semantic html was a must, as well as validating the html.s Lastly, we were
 Project is: _in progress_
 This is a project I expect to revise and build upon throughout the course of this program.
 
+Link to deployed page: https://sdemercurio.github.io/demercurio-portfolio/
+
 
 
 
