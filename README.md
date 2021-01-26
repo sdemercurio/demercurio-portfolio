@@ -13,7 +13,7 @@ Using semantic html was a must, as well as validating the html.s Lastly, we were
 
 ## Screenshots
 ### About Me/Home
-
+![Portfolio/Work Page](assets/images/about.PNG)
 
 ### Portfolio/Work
 ![Portfolio/Work Page](assets/images/portfolio.PNG)
