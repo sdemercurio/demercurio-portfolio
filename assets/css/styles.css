@@ -69,6 +69,7 @@ p {
 
 .bold-text {
     font-family: 'Castoro', serif;
+    line-height: 3rem;
     font-size: 40px;
     font-weight: 200;
 }
@@ -93,6 +94,14 @@ h1 {
     font-family: 'Castoro', serif;
     font-size: 40px;
     font-weight: 200;
+}
+
+button[type="submit"] {
+
+}
+
+button[type="submit"]:hover {
+background-color: aqua;
 }
 
 
