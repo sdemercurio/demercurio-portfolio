@@ -3,7 +3,7 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = 'file:///C:/Users/sdeme/Desktop/bootcamp/homework/homework2/demercurio-portfolio/index.html';
+    $email_from = 'http://www.sldemercurio.com/contact.html';
 
     $email_subject = "New Form Submission";
 
@@ -11,7 +11,14 @@
                     "User Email: $visitor_email.\n".
                         "User Message: $message.\n";
 
-    $to = "sarah.l.demercurio@gmail.com"
+    $to = "sarah.l.demercurio@gmail.com";
+
+    $headers = "From : $email_from \r\n";
+
+    $headers .= "Reply-To: $visitor_email \r\n";
+    mail($to, $email_subject, $email_body, $headers);
+
+    header("Location: contact.html");
 
 
     ?>
