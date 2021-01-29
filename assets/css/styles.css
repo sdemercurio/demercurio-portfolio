@@ -18,9 +18,8 @@
     color: rgb(78, 78, 78);
 }
 
-#resume {
+.resume-link {
     margin-right: 40px;
-    
 }
 
 .navbar-custom .my-name {
