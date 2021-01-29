@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#resume {
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0.2rem 1rem black;
+}
