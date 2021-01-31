@@ -44,6 +44,22 @@
     margin-top: 40px;
 }
 
+/* Projects */
+
+.head {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#subhead {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color:  rgb(78, 78, 78);
+    margin-left: 30px;
+}
+
 /* Images */
 
 .img-fluid {
@@ -60,7 +76,7 @@
 
 #apps {
     text-align: center;
-    margin: 100px 0 100px 0;
+    margin: 15px 0 40px 0;
     display: flex;
   justify-content: center;
   align-items: center;
