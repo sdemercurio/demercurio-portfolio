@@ -58,6 +58,29 @@
     margin-top: 40px;
 }
 
+#apps {
+    text-align: center;
+    margin: 100px 0 100px 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#planit {
+    margin: 20px;
+    box-shadow: 0 0.2rem 1rem black;
+}
+
+#any-weather {
+    margin: 20px;
+    box-shadow: 0 0.2rem 1rem black;
+}
+
+#nalej {
+    margin: 20px;
+    box-shadow: 0 0.2rem 1rem black;
+}
+
 /* text styles */
 
 p {
