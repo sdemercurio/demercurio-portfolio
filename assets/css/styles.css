@@ -40,7 +40,7 @@
 
 /* About Me Section */
 
-.about-me {
+.about-me, .top {
     margin-top: 40px;
 }
 
@@ -54,10 +54,6 @@
     margin-top: 10px;
 }
 
-.top {
-    margin-top: 40px;
-}
-
 #apps {
     text-align: center;
     margin: 100px 0 100px 0;
@@ -66,17 +62,7 @@
   align-items: center;
 }
 
-#planit {
-    margin: 20px;
-    box-shadow: 0 0.2rem 1rem black;
-}
-
-#any-weather {
-    margin: 20px;
-    box-shadow: 0 0.2rem 1rem black;
-}
-
-#nalej {
+#planit, #any-weather, #nalej {
     margin: 20px;
     box-shadow: 0 0.2rem 1rem black;
 }
@@ -125,6 +111,15 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 background-color: aqua;
+}
+
+#my-info {
+    margin-top: 50px;
+    align-content: left;
+}
+
+#phone-head, #phone, #email-head, #email, #location-head, #location {
+    text-align: center;
 }
 
 
