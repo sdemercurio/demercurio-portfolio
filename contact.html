@@ -56,7 +56,7 @@
                         <section class="resume-section text-left" id="contact">
                             <h1>Let's Make Contact</h1>
                             <form class="contact-form d-flex flex-column align-items-center"
-                                     action="https://formspree.io/s.l.demercurio@gmail.com/mqkgnvwo" method="POST">
+                                      action="https://formspree.io/s.l.demercurio@gmail.com/mqkgnvwo" method="POST"> 
                             
                     <!-- NAME -->
                             <div class="form-group w-100">
@@ -89,27 +89,33 @@
                                     required></textarea>
                             </div>
                     <!-- SUBMIT BUTTON -->
-                            <button type="submit" class="btn btn-submit btn-info w-25">Submit</button>
+                            <button id="submit-button" type="submit" class="btn btn-submit btn-info w-25">Submit</button>
                         </form>
+
+                        <div id="thank-you"></div>
+
                     </section>
                 </div>
             </div>
         </div>
      </div> 
 
-     <div class="row" id="my-info"> 
-        <div class="col-md-4">
+     <div class="row" id="my-info">
+        <div class="col-md-3"></div> 
+        <div class="col-md-2">
             <h5 id="phone-head">drop a line</h5>
             <p id="phone">586.350.3228</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <h5 id="email-head">drop some text</h5>
             <p id="email">sldemercurio@gmail.com</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-2">
             <h5 id="location-head">currently based in</h5>
             <p id="location">warren, mi</p>
         </div>
+        <div class="col-md-3"></div>
+
     </div>
 
 </div>
@@ -135,5 +141,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
 
 </html>
