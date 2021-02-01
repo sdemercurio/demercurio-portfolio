@@ -13,13 +13,13 @@ The portfolio is to be mobile-first and display my first project as well as 2 ot
 Now that I have created a number of projects, I would reconsider having severl html files and instead, have the user scroll down through the page, or get a little more creative with it.
 
 ## Screenshots
-![Portfolio/Work Page](assets/images/about-page.PNG)
+![About Me Page](assets/images/about-page.PNG)
 
-![Portfolio/Work Page](assets/images/portfolio-page.PNG)
+![Portfolio Page](assets/images/portfolio-page.PNG)
 
 ![Contact Page](assets/images/contact-page.PNG)
 
-![Contact Page](assets/images/resume-page.PNG)
+![Resume Page](assets/images/resume-page.PNG)
 
 
 ## Technologies
