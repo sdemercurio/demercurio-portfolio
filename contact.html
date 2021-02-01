@@ -56,7 +56,7 @@
                         <section class="resume-section text-left" id="contact">
                             <h1>Let's Make Contact</h1>
                             <form class="contact-form d-flex flex-column align-items-center"
-                                      action="https://formspree.io/s.l.demercurio@gmail.com/mqkgnvwo" method="POST"> 
+                                      action="https://formspree.io/s.l.demercurio@gmail.com" method="POST"> 
                             
                     <!-- NAME -->
                             <div class="form-group w-100">
@@ -89,7 +89,9 @@
                                     required></textarea>
                             </div>
                     <!-- SUBMIT BUTTON -->
-                            <button id="submit-button" type="submit" class="btn btn-submit btn-info w-25">Submit</button>
+                            <button id="submit-button" type="submit" value="send" class="btn btn-submit btn-info w-25">Submit</button>
+                            <input type="hidden" name="_next" value="thanks.html" />
+                            <input type="text" name="_gotcha" style="display:none" />
                         </form>
 
                         <div id="thank-you"></div>
