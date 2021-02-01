@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTACT */
+
+.side-content {
+    margin: 40px 0 10px 20px;
+    min-height: 150px;
+    text-align: center;
+    font-size: large;
+}
+
+.side-content .contact {
+    font-family: 'Castoro', serif;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+button[type="submit"] {
+
+}
+
+button[type="submit"]:hover {
+background-color: aqua;
+}
+
+#thank-you {
+    height: 75px;
+}
+
+.submit-message {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color:  rgb(8, 8, 8);
+    text-align: center;
+    margin-top: 25px;
+}
+
+#my-info {
+    margin-top: 50px;
+    align-content: left;
+}
+
+#phone-head, #phone, #email-head, #email, #location-head, #location {
+    text-align: center;
+}
+
+/* When the screen width is less than 990px,
+the menu options will center align */
+@media (max-width: 990px) {
+    .contact {
+      margin-right: 0;
+    }
+  }
