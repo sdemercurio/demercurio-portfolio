@@ -10,6 +10,10 @@
 
 /* NAV BAR */
 
+.navbar {
+    margin-bottom: 50px;
+}
+
 .navbar-custom {
     background-color: rgb(225, 248, 252);
 }
@@ -135,6 +139,20 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
 background-color: aqua;
+}
+
+#thank-you {
+    height: 75px;
+}
+
+.submit-message {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color:  rgb(8, 8, 8);
+    text-align: center;
+    margin-top: 25px;
 }
 
 #my-info {
