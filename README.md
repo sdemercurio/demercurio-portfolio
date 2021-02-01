@@ -15,7 +15,7 @@ Now that I have created a number of projects, I would reconsider having severl h
 ## Screenshots
 ![About Me Page](assets/images/about-page.PNG)
 
-![Portfolio Page](assets/images/portfolio-page.PNG)
+![Portfolio Page](assets/images/projects-page.PNG)
 
 ![Contact Page](assets/images/contact-page.PNG)
 
