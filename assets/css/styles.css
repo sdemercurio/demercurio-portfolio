@@ -46,12 +46,14 @@
 
 .about-me, .top {
     margin-top: 40px;
+    padding-top: 20px;
 }
 
 /* Images */
 
 .img-fluid {
     margin-top: 50px;
+    border-radius: 20px;
 }
 
 .rounded {
@@ -71,7 +73,7 @@ p {
 .bold-text {
     font-family: 'Castoro', serif;
     line-height: 3rem;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
 }
 
