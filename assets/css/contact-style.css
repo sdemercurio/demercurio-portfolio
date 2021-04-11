@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+.navbar {
+    margin-bottom: 50px;
+  }
+
+  .navbar-custom {
+    background-color: rgb(225, 248, 252);
+  }
+
+  .navbar-custom .nav-link {
+    color: rgb(185, 10, 10) !important;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+  }
+
+  .resume-link {
+    margin-right: 40px;
+  }
+
+  .navbar-custom .s-initial {
+    height: 40px;
+    width: auto;
+    margin: 20px 0 0 30px;
+  }
+
+  .navbar-custom .nav-link a:hover {
+    color: rgb(105, 16, 16);
+  }
+
 /* CONTACT */
 
 .side-content {
