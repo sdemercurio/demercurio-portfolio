@@ -14,10 +14,8 @@
   <link rel="stylesheet" href="https://use.typekit.net/vrh6jxx.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Work+Sans:wght@400;900&display=swap"
-    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/vrh6jxx.css">
+  <link rel="stylesheet" href="https://use.typekit.net/vrh6jxx.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Work+Sans:wght@400;900&display=swap"
@@ -37,7 +35,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
-        <a class="nav-link work ml-auto work-link" href="portfolio.html">Web <span class="sr-only">(current)</span></a>
+        <a class="nav-link work ml-auto work-link" href="#web-link">Web <span class="sr-only">(current)</span></a>
         <a class="nav-link contact ml-auto contact-link" href="art.html">Art</a>
         <a class="nav-link contact ml-auto contact-link" href="contact.html">Contact</a>
         <a class="nav-link contact ml-auto resume-link" href="resume.html">Resume</a>
@@ -52,8 +50,8 @@
       <div class="row">
         <div class="col-md-12">
           <div id="my-name">
-            <p id="sarah">SARAH</p>
-            <p id="demercurio">DEMERCURIO</p>
+            <p class="sarah">SARAH</p>
+
           </div>
         </div>
       </div>
@@ -77,11 +75,21 @@
     </div>
   </section>
 
-  <section id="sectionTwo">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="web-projects" id="web-link">
+      <p class="web">WEB</p>
+    </div>
+    </div>
+  </div>
+</div>
+
+  <section class="fade-in">
     <div class="container">
       <div id="apps" class="row">
         <div class="col-md-6">
-          <h3 id="project-titleLeft">40 Watt Coaching</h3>
+          <h3 class="project-titleLeft">40 Watt Coaching</h3>
           <a target="_blank" rel="noopener noreferrer" href="https://www.40wattcoaching.com/"><img id="watt"
               class="img-fluid rounded" src="assets/images/40watt.PNG" alt="link to Vax Trax app" /></a>
         </div>
@@ -97,14 +105,13 @@
     </div>
   </section>
 
-  <section id="sectionThree">
+  <section class="fade-in">
     <div class="container">
       <div id="apps" class="row">
         <div class="col-md-6">
           <p id="projectDescLeft">
             An information based web application.
-            For this app, I handled the front-end. The concept for the app stems from the uncertainty surrounding the
-            Covid vaccines and fear of the unknown. VaxTrax provides up to date information about the novel Covid-19
+            For this app, I handled the front-end. VaxTrax provides up to date information about the novel Covid-19
             virus
             and allows individuals to track and inform others about their experience with recieving the vaccine.
           </p>
@@ -112,7 +119,7 @@
             class="img-fluid rounded" src="assets/images/octocat.png" alt="link to Vax Trax repo" /></a>
         </div>
         <div class="col-md-6">
-          <h3 id="project-titleRight">Vax Trax</h3>
+          <h3 class="project-titleRight">Vax Trax</h3>
           <a target="_blank" rel="noopener noreferrer" href="https://vax-trax.herokuapp.com/"><img id="vax"
             class="img-fluid rounded" src="assets/images/vax_trax.PNG" alt="link to Vax Trax app" /></a>
         </div>
@@ -121,18 +128,18 @@
     </div>
   </section>
 
-  <section id="sectionThree">
+  <section class="fade-in">
     <div class="container">
       <div id="apps" class="row">
         <div class="col-md-6">
-          <h3 id="project-titleLeft">Nalej</h3>
+          <h3 class="project-titleLeft">Nalej</h3>
           <a target="_blank" rel="noopener noreferrer" href="http://nalej-app.com/"><img id="nalej"
             class="img-fluid rounded" src="assets/images/nalej.PNG" alt="link to Nalej app" /></a>
         </div>
 
         <div class="col-md-6">
           <p id="projectDescRight">
-            Nalej is a learning app intended to satisfy those with an undeniable thirst for… knowledge.
+            Nalej is a learning app intended to satisfy those with an undeniable thirst for (useless) knowledge.
           </p>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/sdemercurio/nalej.git"><img
             id="octocatRight" class="img-fluid rounded" src="assets/images/octocat.png" alt="link to Nalej repo" /></a>
@@ -164,5 +171,6 @@
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="assets/js/index.js"></script>
 
 </html>

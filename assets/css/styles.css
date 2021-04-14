@@ -1,6 +1,4 @@
 @media (min-width: 1025px) {
-  
-
   /* NAV BAR */
 
   .navbar {
@@ -13,8 +11,9 @@
 
   .navbar-custom .nav-link {
     color: rgb(185, 10, 10) !important;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 30px;
   }
 
@@ -37,14 +36,15 @@
   /* About Me Section */
 
   #intro {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 3vw;
     width: 50%;
     float: left;
     padding-right: 6rem;
     line-height: 2.5rem;
-    margin-top: 60px;
+    margin-top: 15%;
   }
 
   /* Images */
@@ -58,7 +58,6 @@
   }
 
   #hi {
-    
     height: 28rem;
     width: auto;
     float: right;
@@ -66,19 +65,72 @@
   }
 
   #my-name {
-    
-    font-family: "Work Sans", sans-serif;
-    font-weight: 900;
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 8vw;
-    line-height: 50px;
+    line-height: 25px;
+    letter-spacing: -2px;
   }
 
-  #sarah {
+  .sarah {
     color: rgb(185, 10, 10);
   }
 
-  #demercurio {
+  .sarah::after {
+    content: 'DeMERCURIO';
     color: rgb(105, 16, 16);
+    top: 50px;
+    left: 30px;
+
+    font-weight: 700;
+    
+    font-style: normal;
+font-style: normal;
+font-style: normal;
+    font-size: 8vw;
+    position:absolute;
+    z-index: -2;
+  }
+
+  .web-projects {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 25px;
+    letter-spacing: -2px;
+    margin-bottom: 70px;
+    position: relative;
+    
+  }
+
+  .web-projects::after {
+    content: '';
+    display: block;
+    width: 75%;
+  height: 3px;
+  background:rgb(105, 16, 16);
+  position: absolute;
+ left: 30%;
+  }
+
+  .web {
+    color: rgb(185, 10, 10);
+  }
+
+  .web::after {
+    content: 'PROJECTS';
+    color: rgb(105, 16, 16);
+    top: 30px;
+    left: 30px;
+    font-weight: 700;
+    font-style: normal;
+font-style: normal;
+font-style: normal;
+    font-size: 5vw;
+    position:absolute;
+    z-index: -2;
   }
 
   #sectionOne {
@@ -86,11 +138,25 @@
     width: 100vw;
   }
 
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
   /* FOOTER */
   .footer {
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 5rem;
+    margin-bottom: 20px;
   }
 
   i {
@@ -103,3 +169,4 @@
     color: darkgrey;
   }
 }
+

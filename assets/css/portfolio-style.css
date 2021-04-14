@@ -1,133 +1,123 @@
-
-
 /* Projects */
 
 #web {
-    color: rgb(185, 10, 10);
-  }
+  color: rgb(185, 10, 10);
+}
 
-  #projects {
-    color: rgb(105, 16, 16);
-    
-  }
+#projects {
+  color: rgb(105, 16, 16);
+}
 
 .head {
-
-    font-family: "Work Sans", sans-serif;
-    font-weight: 900;
-    font-size: 6vw;
-    line-height: 20px;
-    margin-bottom: 40px;
-
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-size: 6vw;
+  line-height: 20px;
+  margin-bottom: 40px;
 }
 
 h3 {
-    align-items: center;
+  align-items: center;
 }
 
 #apps {
-    text-align: center;
-    margin: 2rem 0 4rem 0;
-    display: flex;
+  text-align: center;
+  margin: 2rem 0 4rem 0;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#vax, #any-weather, #nalej, #watt {
-    margin: 20px;
-    box-shadow: 0 0.2rem 1rem rgb(117, 116, 116);
+#vax,
+#nalej,
+#watt {
+  margin: 20px;
+  box-shadow: 0 0.2rem 1rem rgb(117, 116, 116);
+  filter:saturate(0);
+}
+
+#vax:hover,
+#nalej:hover,
+#watt:hover {
+  
+  filter:saturate(100%);
 }
 
 #octocatRight {
   align-items: left;
-  height:30px;
-  width:auto;
+  height: 30px;
+  width: auto;
 }
 
 #octocatLeft {
   align-items: right;
-  height:30px;
-  width:auto;
+  height: 30px;
+  width: auto;
 }
 
 hr {
-    border: none;
-    border-radius: 20px;
-    height: 5px;
-    /* Set the hr color */
-    color: rgb(109, 17, 17); /* old IE */
-    background-color: rgb(116, 12, 12); /* Modern Browsers */
+  border: none;
+  border-radius: 20px;
+  height: 5px;
+  /* Set the hr color */
+  color: rgb(109, 17, 17); /* old IE */
+  background-color: rgb(116, 12, 12); /* Modern Browsers */
 }
 
-#project-titleLeft {
-    margin-top: 20px;
-    font-family: "Work Sans", sans-serif;
+.project-titleLeft {
+  margin-top: 20px;
+  font-family: novecento-sans-condensed, sans-serif;
     font-weight: 700;
-    font-size: 1.5vw;
-    width: 70%;
-    line-height: 1.5rem;
-    text-align: left;
-    color:rgb(105, 16, 16);
+    font-style: normal;
+  font-size: 3.5vw;
+  width: 100%;
+  line-height: 2rem;
+  text-align: left;
+  color:  rgb(185, 10, 10);
+ 
 }
 
 #projectDescRight {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
-    font-size: 1.5vw;
-    float: left;
-    line-height: 1.25rem;
-    text-align: right;
-    background-color: rgb(83, 81, 81);
-    color: white;
-    padding: 15px;
-    margin-left: -50px;
-    border-radius: 15px;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5vw;
+  float: left;
+  line-height: 2.5rem;
+  text-align: right;
+  
+  color: black;
+  
+  margin-left: 10px;
+  border-radius: 15px;
 }
 
-#project-titleRight {
+.project-titleRight {
   margin-top: 20px;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1.5vw;
-  width: 70%;
+  font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  font-size: 3.5vw;
+  width: 100%;
   line-height: 1.5rem;
   text-align: right;
-  color:rgb(105, 16, 16);
+  float: right;
+  color: rgb(185, 10, 10);
   position: relative;
   z-index: 1;
-
 }
 
 #projectDescLeft {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.5vw;
-  float: right;
-  line-height: 1.25rem;
-  text-align: left;
-  background-color: rgb(83, 81, 81);
-  color: white;
-  padding: 15px;
-  margin-right: -70px;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5vw;
+  float: left;
+  line-height: 2.5rem;
+  text-align: right;
+  
+  color: black;
+  
+  margin: 30px 10px 0 0;
   border-radius: 15px;
-  position: relative;
-  z-index: 2;
 }
-
-/* FOOTER */
-.footer {
-    
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;
-  }
-
-  i {
-    color: black;
-    font-size: 30px;
-    margin: 40px 10px 0 0;
-  }
-
-  i:hover {
-    color: darkgrey;
-  }
