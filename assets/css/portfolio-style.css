@@ -1,33 +1,5 @@
 
 
-.navbar {
-    margin-bottom: 50px;
-  }
-
-  .navbar-custom {
-    background-color: rgb(225, 248, 252);
-  }
-
-  .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
-  }
-
-  .resume-link {
-    margin-right: 40px;
-  }
-
-  .navbar-custom .s-initial {
-    height: 40px;
-    width: auto;
-    margin: 20px 0 0 30px;
-  }
-
-  .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
-  }
-
 /* Projects */
 
 #web {
@@ -66,9 +38,16 @@ h3 {
     box-shadow: 0 0.2rem 1rem rgb(117, 116, 116);
 }
 
-#octocat {
-    margin: 15px 0 50px 0;
+#octocatRight {
   align-items: left;
+  height:30px;
+  width:auto;
+}
+
+#octocatLeft {
+  align-items: right;
+  height:30px;
+  width:auto;
 }
 
 hr {
@@ -80,29 +59,64 @@ hr {
     background-color: rgb(116, 12, 12); /* Modern Browsers */
 }
 
-#project-title {
-    margin-top: 40px;
+#project-titleLeft {
+    margin-top: 20px;
     font-family: "Work Sans", sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    width: 50%;
-    line-height: 2.5rem;
-    text-align: right;
+    font-weight: 700;
+    font-size: 1.5vw;
+    width: 70%;
+    line-height: 1.5rem;
+    text-align: left;
+    color:rgb(105, 16, 16);
 }
 
-#projectDesc {
-    margin-top: 40px;
+#projectDescRight {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
     float: left;
-    line-height: 1.5rem;
-    text-align: left;
+    line-height: 1.25rem;
+    text-align: right;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    padding: 15px;
+    margin-left: -50px;
+    border-radius: 15px;
+}
+
+#project-titleRight {
+  margin-top: 20px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  width: 70%;
+  line-height: 1.5rem;
+  text-align: right;
+  color:rgb(105, 16, 16);
+  position: relative;
+  z-index: 1;
+
+}
+
+#projectDescLeft {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw;
+  float: right;
+  line-height: 1.25rem;
+  text-align: left;
+  background-color: rgb(83, 81, 81);
+  color: white;
+  padding: 15px;
+  margin-right: -70px;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
 }
 
 /* FOOTER */
 .footer {
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     height: 2.5rem;
