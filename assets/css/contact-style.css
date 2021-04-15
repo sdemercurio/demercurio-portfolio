@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-.navbar {
+  /* NAV BAR */
+
+  .navbar {
     margin-bottom: 50px;
   }
 
@@ -13,8 +15,10 @@
 
   .navbar-custom .nav-link {
     color: rgb(185, 10, 10) !important;
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
   }
 
   .resume-link {
@@ -22,9 +26,9 @@
   }
 
   .navbar-custom .s-initial {
-    height: 40px;
+    height: 75px;
     width: auto;
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 60px;
   }
 
   .navbar-custom .nav-link a:hover {

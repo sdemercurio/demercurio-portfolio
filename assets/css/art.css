@@ -1,32 +1,69 @@
 
-#under {
-    color: rgb(185, 10, 10);
-    
-  }
-
-  #construction {
-    color: rgb(105, 16, 16);
-    
-  }
-
-.head {
-
-    font-family: "Work Sans", sans-serif;
-    font-weight: 900;
-    font-size: 6vw;
-    line-height: 20px;
-    margin-top: 70px;
-
-}
-
 #check {
-    font-family: "Work Sans", sans-serif;
-    font-weight: 400;
+
     font-size: 2vw;
     line-height: 20px;
     text-align: right;
+
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3vw;
 }
 
 #very {
     color: rgb(105, 16, 16);
+    font-weight: 400;
+}
+
+#head {
+  font-family: novecento-sans-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8vw;
+  line-height: 25px;
+  letter-spacing: -2px;
+}
+
+.under {
+  color: rgb(185, 10, 10);
+}
+
+.under::after {
+  content: 'CONSTRUCTION';
+  color: rgb(105, 16, 16);
+  top: 50px;
+  left: 30px;
+
+  font-weight: 700;
+  
+  font-style: normal;
+font-style: normal;
+font-style: normal;
+  font-size: 8vw;
+  position:absolute;
+  z-index: -2;
+}
+
+.message {
+  height: 20vh;
+}
+
+ /* FOOTER */
+ .artFooter {
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 40px;
+  position: absolute;
+}
+
+i {
+  color: black;
+  font-size: 30px;
+  margin: 20px 10px 0 0;
+}
+
+i:hover {
+  color: darkgrey;
 }
