@@ -1,52 +1,86 @@
-
-#check {
-
-    font-size: 2vw;
-    line-height: 20px;
-    text-align: right;
-
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 3vw;
+.navbar {
+  margin-bottom: 50px;
 }
 
-#very {
-    color: rgb(105, 16, 16);
-    font-weight: 400;
+.navbar-custom {
+  background-color: rgb(225, 248, 252);
 }
 
-#head {
+.navbar-custom .nav-link {
+  color: rgb(185, 10, 10) !important;
+  font-family: neuzeit-grotesk, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.resume-link {
+  margin-right: 40px;
+}
+
+.navbar-custom .s-initial {
+  height: 75px;
+  width: auto;
+  margin: 20px 0 0 60px;
+}
+
+.navbar-custom .nav-link a:hover {
+  color: rgb(105, 16, 16);
+}
+
+.web-projects {
   font-family: novecento-sans-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 8vw;
+  font-size: 5vw;
   line-height: 25px;
   letter-spacing: -2px;
+  margin-bottom: 70px;
+  position: relative;
+  
 }
 
-.under {
+.web-projects::after {
+  content: '';
+  display: block;
+  width: 75%;
+height: 3px;
+background:rgb(105, 16, 16);
+position: absolute;
+left: 30%;
+}
+
+.web {
   color: rgb(185, 10, 10);
 }
 
-.under::after {
-  content: 'CONSTRUCTION';
+.web::after {
+  content: 'PROJECTS';
   color: rgb(105, 16, 16);
-  top: 50px;
+  top: 30px;
   left: 30px;
-
   font-weight: 700;
-  
   font-style: normal;
 font-style: normal;
 font-style: normal;
-  font-size: 8vw;
+  font-size: 4vw;
   position:absolute;
   z-index: -2;
 }
 
-.message {
-  height: 20vh;
+.art-head {
+  font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+   margin-top: 10rem;
+}
+
+.ills {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: auto;
 }
 
  /* FOOTER */
@@ -55,7 +89,6 @@ font-style: normal;
   width: 100%;
   height: 2rem;
   margin-bottom: 40px;
-  position: absolute;
 }
 
 i {
@@ -67,3 +100,4 @@ i {
 i:hover {
   color: darkgrey;
 }
+

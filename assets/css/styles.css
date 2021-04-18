@@ -1,4 +1,579 @@
-@media (min-width: 1025px) {
+
+  /* NAV BAR */
+
+  .navbar {
+   
+  }
+
+  .navbar-custom {
+    background-color: rgb(225, 248, 252);
+  }
+
+  .navbar-custom .nav-link {
+    color: rgb(185, 10, 10) !important;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+  }
+
+  .resume-link {
+    margin-right: 20px;
+  }
+
+  .navbar-custom .s-initial {
+    height: 20px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .navbar-custom .nav-link a:hover {
+    color: rgb(105, 16, 16);
+  }
+
+  /* Container */
+
+  /* About Me Section */
+
+  #intro {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 1.5rem;
+    margin-top: 15%;
+  }
+
+  /* Images */
+
+  #portrait {
+    border-radius: 50%;
+    height: 14rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #hi {
+    height: 14rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #my-name {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14vw;
+    line-height: 10px;
+    letter-spacing: -2px;
+  }
+
+  .sarah {
+    color: rgb(185, 10, 10);
+  }
+
+  .sarah::after {
+    content: "DeMERCURIO";
+    color: rgb(105, 16, 16);
+    top: 15px;
+    left: 30px;
+    font-weight: 700;
+    font-size: 14vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  .web-projects {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8vw;
+    line-height: 25px;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .web-projects::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 3px;
+    background: rgb(105, 16, 16);
+    position: absolute;
+    left: 40%;
+  }
+
+  .web {
+    color: rgb(185, 10, 10);
+  }
+
+  .web::after {
+    content: "PROJECTS";
+    color: rgb(105, 16, 16);
+    top: 15px;
+    left: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    font-style: normal;
+    font-size: 8vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  #sectionOne {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .bigS {
+    margin: 40px 0 0 40px;
+    height: auto;
+    width: 50%;
+
+  }
+
+  #favoriteThings {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 4vw;
+    text-align: center;
+    margin: 60px 0 20px 0;
+  }
+
+  .faves {
+    display: inline-block;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 40px;
+  }
+
+  i {
+    color: black;
+    font-size: 30px;
+    margin: 20px 10px 0 0;
+  }
+
+  i:hover {
+    color: darkgrey;
+  }
+
+
+@media (min-width: 480px) {
+  /* NAV BAR */
+
+  .navbar {
+   
+  }
+
+  .navbar-custom {
+    background-color: rgb(225, 248, 252);
+  }
+
+  .navbar-custom .nav-link {
+    color: rgb(185, 10, 10) !important;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+  }
+
+  .resume-link {
+    margin-right: 20px;
+  }
+
+  .navbar-custom .s-initial {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .navbar-custom .nav-link a:hover {
+    color: rgb(105, 16, 16);
+  }
+
+  /* Container */
+
+  /* About Me Section */
+
+  #intro {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 1.5rem;
+    margin-top: 15%;
+  }
+
+  /* Images */
+
+  #portrait {
+    border-radius: 50%;
+    height: 14rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #hi {
+    height: 14rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #my-name {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12vw;
+    line-height: 10px;
+    letter-spacing: -2px;
+  }
+
+  .sarah {
+    color: rgb(185, 10, 10);
+  }
+
+  .sarah::after {
+    content: "DeMERCURIO";
+    color: rgb(105, 16, 16);
+    top: 15px;
+    left: 30px;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-style: normal;
+    font-style: normal;
+    font-size: 12vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  .web-projects {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8vw;
+    line-height: 25px;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .web-projects::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 3px;
+    background: rgb(105, 16, 16);
+    position: absolute;
+    left: 40%;
+  }
+
+  .web {
+    color: rgb(185, 10, 10);
+  }
+
+  .web::after {
+    content: "PROJECTS";
+    color: rgb(105, 16, 16);
+    top: 15px;
+    left: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    font-style: normal;
+    font-size: 8vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  #sectionOne {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .bigS {
+    margin: 40px 0 0 40px;
+    height: auto;
+    width: 50%;
+
+  }
+
+  #favoriteThings {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 4vw;
+    text-align: center;
+    margin: 60px 0 20px 0;
+  }
+
+  .faves {
+    display: inline-block;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 40px;
+  }
+
+  i {
+    color: black;
+    font-size: 30px;
+    margin: 20px 10px 0 0;
+  }
+
+  i:hover {
+    color: darkgrey;
+  }
+}
+
+@media (min-width: 769px) {
+  /* NAV BAR */
+
+  .navbar {
+   
+  }
+
+  .navbar-custom {
+    background-color: rgb(225, 248, 252);
+  }
+
+  .navbar-custom .nav-link {
+    color: rgb(185, 10, 10) !important;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  .resume-link {
+    margin-right: 40px;
+  }
+
+  .navbar-custom .s-initial {
+    height: 30px;
+    width: auto;
+    margin: ;
+  }
+
+  .navbar-custom .nav-link a:hover {
+    color: rgb(105, 16, 16);
+  }
+
+  /* Container */
+
+  /* About Me Section */
+
+  #intro {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 3vw;
+    width: 50%;
+    float: left;
+    padding-right: 6rem;
+    line-height: 2.5rem;
+    margin-top: 15%;
+  }
+
+  /* Images */
+
+  #portrait {
+    border-radius: 50%;
+    height: 28rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #hi {
+    height: 28rem;
+    width: auto;
+    float: right;
+    position: absolute;
+  }
+
+  #my-name {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8vw;
+    line-height: 25px;
+    letter-spacing: -2px;
+  }
+
+  .sarah {
+    color: rgb(185, 10, 10);
+  }
+
+  .sarah::after {
+    content: "DeMERCURIO";
+    color: rgb(105, 16, 16);
+    top: 50px;
+    left: 30px;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-style: normal;
+    font-style: normal;
+    font-size: 8vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  .web-projects {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    line-height: 25px;
+    letter-spacing: -2px;
+    margin-bottom: 70px;
+    position: relative;
+  }
+
+  .web-projects::after {
+    content: "";
+    display: block;
+    width: 75%;
+    height: 3px;
+    background: rgb(105, 16, 16);
+    position: absolute;
+    left: 30%;
+  }
+
+  .web {
+    color: rgb(185, 10, 10);
+  }
+
+  .web::after {
+    content: "PROJECTS";
+    color: rgb(105, 16, 16);
+    top: 30px;
+    left: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    font-style: normal;
+    font-size: 5vw;
+    position: absolute;
+    z-index: -2;
+  }
+
+  #sectionOne {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  .fade-in.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+
+  .bigS {
+    height: 60%;
+    width: auto;
+    margin-left: 30px;
+  }
+
+  #favoriteThings {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 3vw;
+  }
+
+  .faves {
+    display: inline-block;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.65vw;
+    text-align: left;
+  }
+
+  /* FOOTER */
+  .footer {
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 40px;
+  }
+
+  i {
+    color: black;
+    font-size: 30px;
+    margin: 20px 10px 0 0;
+  }
+
+  i:hover {
+    color: darkgrey;
+  }
+}
+
+
+@media (min-width: 1000px) {
   /* NAV BAR */
 
   .navbar {
@@ -78,18 +653,18 @@
   }
 
   .sarah::after {
-    content: 'DeMERCURIO';
+    content: "DeMERCURIO";
     color: rgb(105, 16, 16);
     top: 50px;
     left: 30px;
 
     font-weight: 700;
-    
+
     font-style: normal;
-font-style: normal;
-font-style: normal;
+    font-style: normal;
+    font-style: normal;
     font-size: 8vw;
-    position:absolute;
+    position: absolute;
     z-index: -2;
   }
 
@@ -102,17 +677,16 @@ font-style: normal;
     letter-spacing: -2px;
     margin-bottom: 70px;
     position: relative;
-    
   }
 
   .web-projects::after {
-    content: '';
+    content: "";
     display: block;
     width: 75%;
-  height: 3px;
-  background:rgb(105, 16, 16);
-  position: absolute;
- left: 30%;
+    height: 3px;
+    background: rgb(105, 16, 16);
+    position: absolute;
+    left: 30%;
   }
 
   .web {
@@ -120,16 +694,16 @@ font-style: normal;
   }
 
   .web::after {
-    content: 'PROJECTS';
+    content: "PROJECTS";
     color: rgb(105, 16, 16);
     top: 30px;
     left: 30px;
     font-weight: 700;
     font-style: normal;
-font-style: normal;
-font-style: normal;
+    font-style: normal;
+    font-style: normal;
     font-size: 5vw;
-    position:absolute;
+    position: absolute;
     z-index: -2;
   }
 
@@ -153,7 +727,7 @@ font-style: normal;
 
   .bigS {
     height: 60%;
-    width:auto;
+    width: auto;
     margin-left: 30px;
   }
 
@@ -191,4 +765,3 @@ font-style: normal;
     color: darkgrey;
   }
 }
-
