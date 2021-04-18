@@ -1,8 +1,4 @@
-.navbar {
-    margin-bottom: 50px;
-  }
-  
-  .navbar-custom {
+.navbar-custom {
     background-color: rgb(225, 248, 252);
   }
   
@@ -12,16 +8,14 @@
     font-weight: 200;
     font-style: normal;
     font-size: 30px;
+    margin-bottom: -25px;
   }
   
-  .resume-link {
-    margin-right: 40px;
-  }
   
   .navbar-custom .s-initial {
-    height: 75px;
+    height: 65px;
     width: auto;
-    margin: 20px 0 0 60px;
+    
   }
   
   .navbar-custom .nav-link a:hover {
@@ -104,6 +98,7 @@
   @media (min-width: 480px) {
     .navbar {
       margin-bottom: 50px;
+      overflow: auto;
     }
     
     .navbar-custom {
@@ -115,17 +110,14 @@
       font-family: neuzeit-grotesk, sans-serif;
       font-weight: 200;
       font-style: normal;
-      font-size: 30px;
+      font-size: 20px;
+      margin-bottom: -15px;
     }
     
-    .resume-link {
-      margin-right: 40px;
-    }
     
     .navbar-custom .s-initial {
-      height: 75px;
+      height: 60px;
       width: auto;
-      margin: 20px 0 0 60px;
     }
     
     .navbar-custom .nav-link a:hover {
@@ -209,6 +201,7 @@
 @media (min-width: 769px) {
   .navbar {
     margin-bottom: 50px;
+    overflow: auto;
   }
   
   .navbar-custom {
@@ -223,14 +216,10 @@
     font-size: 30px;
   }
   
-  .resume-link {
-    margin-right: 40px;
-  }
-  
   .navbar-custom .s-initial {
     height: 75px;
     width: auto;
-    margin: 20px 0 0 60px;
+    margin: 0 0 0 60px;
   }
   
   .navbar-custom .nav-link a:hover {
