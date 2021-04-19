@@ -76,6 +76,47 @@
     max-width: 100%;
     max-height: auto;
   }
+
+  #digi-sarah {
+    height: 500px;
+    width:auto;
+    margin-left: 15px;
+    float: right;
+  }
+
+  #contact {
+    height: 500px;
+    width:auto;
+  }
+
+  #geo {
+    height: 500px;
+    width:auto;
+    margin-top: 40px;
+
+  }
+
+  #spring {
+    height: auto;
+    width:90%;
+    float: right;
+    margin-top: 40px;
+  }
+
+  #cupcake {
+    height: 500px;
+    width:auto;
+    margin-top: 40px;
+  }
+
+  #zombie {
+    height: 500px;
+    width:auto;
+    margin-left: 55px;
+    float: right;
+    margin-top: 40px;
+    
+  }
   
    /* FOOTER */
    .artFooter {
