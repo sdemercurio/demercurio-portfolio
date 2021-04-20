@@ -77,6 +77,33 @@
     max-height: auto;
   }
 
+  .subhead {
+    font-family: neuzeit-grotesk, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      margin-top: 15px;
+  
+  }
+
+  .subhead2 {
+    font-family: neuzeit-grotesk, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      margin-top: 50px;
+      
+  }
+
+  .subhead-right {
+    font-family: neuzeit-grotesk, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 18px;
+      margin-left: 10rem;
+      margin-top: 15px;
+  }
+
   #digi-sarah {
     height: 500px;
     width:auto;
@@ -100,7 +127,7 @@
     height: auto;
     width:90%;
     float: right;
-    margin-top: 40px;
+    margin-top: 8rem;
   }
 
   #cupcake {
