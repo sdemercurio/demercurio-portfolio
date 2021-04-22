@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;}
+	.st2{font-family:'SofiaPro-Bold';}
+	.st3{font-size:27px;}
+	.st4{font-family:'SofiaPro-Lightitalic';}
+	.st5{font-size:12px;}
+	.st6{font-family:'SofiaPro-Regular';}
+	.st7{font-size:10px;}
+	.st8{font-family:'SofiaPro-Bolditalic';}
+	.st9{clip-path:url(#SVGID_3_);}
+	.st10{clip-path:url(#SVGID_3_);fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st11{clip-path:url(#SVGID_5_);fill:none;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st12{clip-path:url(#SVGID_5_);}
+	.st13{font-size:11px;}
+	.st14{letter-spacing:4;}
+	.st15{letter-spacing:25.3;}
+	.st16{letter-spacing:29.3;}
+	.st17{letter-spacing:5.1;}
+	.st18{letter-spacing:32.3;}
+	.st19{letter-spacing:26.3;}
+	.st20{letter-spacing:20.2;}
+	.st21{letter-spacing:7.1;}
+	.st22{letter-spacing:22.2;}
+	.st23{font-size:16px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="53.8299" y1="187.3158" x2="125.2137" y2="505.4347">
+	<stop  offset="0" style="stop-color:#E6E7E8"/>
+	<stop  offset="1" style="stop-color:#BCBEC0"/>
+</linearGradient>
+<rect x="1.9" y="50.1" class="st0" width="208.8" height="742.6"/>
+<rect x="21.1" y="55.9" class="st1" width="217.6" height="716.2"/>
+<text transform="matrix(1 0 0 1 21.0588 75.4079)"><tspan x="0" y="0" class="st2 st3">SARAH</tspan><tspan x="0" y="24.4" class="st2 st3">DeMERCURIO</tspan><tspan x="0" y="52" class="st4 st5">Graphic designer | Web developer</tspan><tspan x="0" y="90.4" class="st2 st5">Contact</tspan><tspan x="0" y="102.4" class="st6 st7">email: sarah.l.demercuriomi@gmail.com</tspan><tspan x="0" y="114.4" class="st6 st7">phone: 586.350.3228</tspan><tspan x="0" y="126.4" class="st6 st7">portfolio: www.sldemercurio.com</tspan><tspan x="0" y="155.2" class="st2 st5">Education</tspan><tspan x="0" y="167.2" class="st8 st7">Michigan State University</tspan><tspan x="0" y="179.2" class="st4 st7">Full-stack Web Development Boot Camp</tspan><tspan x="0" y="203.2" class="st8 st7">Wayne State University</tspan><tspan x="0" y="215.2" class="st4 st7">BFA — Graphic Design</tspan><tspan x="0" y="239.2" class="st8 st7">Macomb Community College</tspan><tspan x="0" y="251.2" class="st4 st7">Associates Degree — Advertising Art</tspan><tspan x="0" y="280" class="st2 st5">Relevant Skills</tspan><tspan x="0" y="292" class="st6 st7">HTML</tspan><tspan x="0" y="304" class="st6 st7">CSS</tspan><tspan x="0" y="316" class="st6 st7">Bootstrap</tspan><tspan x="0" y="328" class="st6 st7">JavaScript</tspan><tspan x="0" y="340" class="st6 st7">APIs</tspan><tspan x="0" y="352" class="st6 st7">Git</tspan><tspan x="0" y="364" class="st6 st7">GitHub</tspan><tspan x="0" y="376" class="st6 st7">MongoDB</tspan><tspan x="0" y="388" class="st6 st7">Figma</tspan><tspan x="0" y="400" class="st6 st7">Photoshop</tspan><tspan x="0" y="412" class="st6 st7">Illustrator</tspan><tspan x="0" y="424" class="st6 st7">InDesign</tspan><tspan x="0" y="450.4" class="st2 st5">Other Experience</tspan><tspan x="0" y="462.4" class="st6 st7">Logo Design</tspan><tspan x="0" y="474.4" class="st6 st7">Branding/Identity</tspan><tspan x="0" y="486.4" class="st6 st7">Editorial Layout</tspan><tspan x="0" y="498.4" class="st6 st7">Web Design</tspan></text>
+<rect x="240.1" y="77.9" class="st1" width="359.7" height="299.8"/>
+<text transform="matrix(0.9894 0 0 1 240.1235 86.5391)"><tspan x="0" y="0" class="st2 st5">Vax Trax</tspan><tspan x="0" y="12" class="st6 st7">An  app that allows users to document and share their Covid-19 </tspan><tspan x="0" y="24" class="st6 st7">vaccine experiences.</tspan><tspan x="0" y="36" class="st6 st7">·  I was responsible for the front-end work using Bootstrap, JavaScript, </tspan><tspan x="0" y="48" class="st6 st7">   and Chart.JS</tspan><tspan x="0" y="60" class="st6 st7">·  CDC API used for retrieving data</tspan><tspan x="0" y="72" class="st6 st7">·  Backend built using JavaScript, Passport, Node.JS, Express.JS</tspan><tspan x="0" y="84" class="st6 st7">·  https://vax-trax.herokuapp.com/</tspan><tspan x="0" y="132" class="st6 st7">A useless knowledge app intended to educate and entertain</tspan><tspan x="0" y="144" class="st6 st7">·  Lead developer of a group of three</tspan><tspan x="0" y="156" class="st6 st7">·  Styled using Foundation.</tspan><tspan x="0" y="168" class="st6 st7">·  Utilized Giphy and Numbers APIs to retrieve information.</tspan><tspan x="0" y="180" class="st6 st7">·  Functionality built using JavaScript.</tspan><tspan x="0" y="192" class="st6 st7">·  www.nalej-app.com</tspan><tspan x="0" y="220.8" class="st2 st5">Any Weather</tspan><tspan x="0" y="232.8" class="st6 st7">A weather app that displays the current weather and 5-day forecast of any city</tspan><tspan x="0" y="244.8" class="st6 st7">·  Styled using Bootstrap</tspan><tspan x="0" y="256.8" class="st6 st7">·  Open Weather API used for retrieving data</tspan><tspan x="0" y="268.8" class="st6 st7">·  Functionality built using JavaScript</tspan><tspan x="0" y="280.8" class="st6 st7">·  https://sdemercurio.github.io/any-weather</tspan></text>
+<g>
+	<defs>
+		<rect id="SVGID_2_" x="242.7" y="192.3" width="28.2" height="14.9"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="st9" d="M242.8,197.2h1.1v0.7c0.2-0.3,0.8-0.9,1.8-0.9c0.7,0,1.4,0.3,1.8,0.9c0.3,0.5,0.4,1,0.4,1.7v3.9h-1.1v-3.9
+		c0-0.4,0-0.8-0.3-1.2c-0.2-0.3-0.5-0.5-1-0.5c-0.4,0-0.8,0.1-1.1,0.5c-0.4,0.5-0.5,1.2-0.5,1.7v3.3h-1.1V197.2z"/>
+	<path class="st10" d="M242.8,197.2h1.1v0.7c0.2-0.3,0.8-0.9,1.8-0.9c0.7,0,1.4,0.3,1.8,0.9c0.3,0.5,0.4,1,0.4,1.7v3.9h-1.1v-3.9
+		c0-0.4,0-0.8-0.3-1.2c-0.2-0.3-0.5-0.5-1-0.5c-0.4,0-0.8,0.1-1.1,0.5c-0.4,0.5-0.5,1.2-0.5,1.7v3.3h-1.1V197.2z"/>
+	<path class="st9" d="M254.5,194.4c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.3-0.8-0.8
+		C253.8,194.7,254.1,194.4,254.5,194.4 M251.9,194.4c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.3-0.8-0.8
+		C251.1,194.7,251.5,194.4,251.9,194.4 M250.9,200.4c0,1.4,0.8,2.4,2,2.4c1.3,0,2.1-1.1,2.1-2.4c0-1.6-1.1-2.3-2.1-2.3
+		C251.9,198,250.9,198.8,250.9,200.4 M255,197.2h1.1v6.3H255v-0.9c-0.4,0.5-1,1.1-2.1,1.1c-1.6,0-3-1.1-3-3.4c0-2.2,1.4-3.3,3-3.3
+		c1.2,0,1.9,0.7,2.1,1.1V197.2z"/>
+	<path class="st10" d="M254.5,194.4c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.3-0.8-0.8
+		C253.8,194.7,254.1,194.4,254.5,194.4z M251.9,194.4c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.3-0.8-0.8
+		C251.1,194.7,251.5,194.4,251.9,194.4z M250.9,200.4c0,1.4,0.8,2.4,2,2.4c1.3,0,2.1-1.1,2.1-2.4c0-1.6-1.1-2.3-2.1-2.3
+		C251.9,198,250.9,198.8,250.9,200.4z M255,197.2h1.1v6.3H255v-0.9c-0.4,0.5-1,1.1-2.1,1.1c-1.6,0-3-1.1-3-3.4c0-2.2,1.4-3.3,3-3.3
+		c1.2,0,1.9,0.7,2.1,1.1V197.2z"/>
+</g>
+<rect x="258.4" y="192.4" width="1.1" height="11.1"/>
+<g>
+	<defs>
+		<rect id="SVGID_4_" x="242.7" y="192.3" width="28.2" height="14.9"/>
+	</defs>
+	<clipPath id="SVGID_5_">
+		<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect x="258.4" y="192.4" class="st11" width="1.1" height="11.1"/>
+	<path class="st12" d="M262.6,201.1c0.2,1,0.9,1.6,1.8,1.6c0.9,0,1.7-0.7,1.8-1.6H262.6z M261.5,198.9c0.2-0.4,0.5-0.7,0.8-1
+		c0.6-0.5,1.3-0.8,2.1-0.8c1.5,0,3.1,1,3.1,3.3c0,1.9-1.1,3.4-3,3.4c-1.2,0-2-0.6-2.4-1.2c-0.4-0.6-0.6-1.5-0.6-2.4h4.9
+		c0-1.3-0.9-2.1-2-2.1c-0.5,0-0.9,0.2-1.3,0.5c-0.3,0.2-0.5,0.6-0.6,0.9L261.5,198.9z"/>
+	<path class="st11" d="M262.6,201.1c0.2,1,0.9,1.6,1.8,1.6c0.9,0,1.7-0.7,1.8-1.6H262.6z M261.5,198.9c0.2-0.4,0.5-0.7,0.8-1
+		c0.6-0.5,1.3-0.8,2.1-0.8c1.5,0,3.1,1,3.1,3.3c0,1.9-1.1,3.4-3,3.4c-1.2,0-2-0.6-2.4-1.2c-0.4-0.6-0.6-1.5-0.6-2.4h4.9
+		c0-1.3-0.9-2.1-2-2.1c-0.5,0-0.9,0.2-1.3,0.5c-0.3,0.2-0.5,0.6-0.6,0.9L261.5,198.9z"/>
+	<path class="st12" d="M270.5,207h-1.1v-9.8h1.1V207z M270,194c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.4-0.8-0.8
+		C269.2,194.4,269.5,194,270,194"/>
+	<path class="st11" d="M270.5,207h-1.1v-9.8h1.1V207z M270,194c0.4,0,0.8,0.4,0.8,0.8c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.8-0.4-0.8-0.8
+		C269.2,194.4,269.5,194,270,194z"/>
+</g>
+<rect x="242" y="413" class="st1" width="355.4" height="367.7"/>
+<text transform="matrix(0.9894 0 0 1 242.0261 420.9166)"><tspan x="0" y="0" class="st2 st13">Freelance Graphic Designer</tspan><tspan x="0" y="13.2" class="st4 st13">Warren, MI / May 2008 - Present</tspan><tspan x="0" y="37.2" class="st6 st7">·  Clients range from local start-ups to west coast start-ups and major</tspan><tspan x="0" y="49.2" class="st6 st7">   corporations such as Lyft.</tspan><tspan x="0" y="61.2" class="st6 st7">·  Experience with logo and branding, web design, design layout for print        </tspan><tspan x="350.1" y="61.2" class="st6 st7 st14">	</tspan><tspan x="357.2" y="61.2" class="st6 st7">   </tspan><tspan x="364.8" y="61.2" class="st6 st7 st15">	</tspan><tspan x="0" y="73.2" class="st6 st7">   and web.</tspan><tspan x="0" y="85.2" class="st6 st7">·  Experience with preflight and packaging documents for printers. Also </tspan><tspan x="324.7" y="85.2" class="st6 st7 st16">	</tspan><tspan x="357.2" y="85.2" class="st6 st7">   </tspan><tspan x="364.8" y="85.2" class="st6 st7 st15">	</tspan><tspan x="0" y="97.2" class="st6 st7">   worked closely with printers to ensure correct color and other important      </tspan><tspan x="349.3" y="97.2" class="st6 st7 st17">	</tspan><tspan x="357.2" y="97.2" class="st6 st7 st18">	</tspan><tspan x="0" y="109.2" class="st6 st7">   instructions to guarantee customer products are printed correctly and </tspan><tspan x="328" y="109.2" class="st6 st7 st19">	</tspan><tspan x="357.2" y="109.2" class="st6 st7">   </tspan><tspan x="364.8" y="109.2" class="st6 st7 st15">	</tspan><tspan x="0" y="121.2" class="st6 st7">   maintain a good elationship with the printers</tspan><tspan x="0" y="146.4" class="st2 st13">Graphic Designer</tspan><tspan x="0" y="159.6" class="st4 st13">Trevco Inc., Madison Heights, MI / May 2013 - December 2019</tspan><tspan x="0" y="183.6" class="st6 st7">·  Creation of designs and graphics for one of the largest licensed apparel      </tspan><tspan x="350.1" y="183.6" class="st6 st7 st14">	</tspan><tspan x="357.2" y="183.6" class="st6 st7">   </tspan><tspan x="364.8" y="183.6" class="st6 st7 st15">	</tspan><tspan x="0" y="195.6" class="st6 st7">   companies in the country. Clients include but not are not limited to </tspan><tspan x="0" y="207.6" class="st6 st7">   DC Comics, Warner Bros, CBS, and Harry Potter.</tspan><tspan x="0" y="231.6" class="st6 st7">·  Responsible for organizing and managing all samples necessary for `    </tspan><tspan x="334.2" y="231.6" class="st6 st7 st20">	</tspan><tspan x="357.2" y="231.6" class="st6 st7">   </tspan><tspan x="364.8" y="231.6" class="st6 st7 st15">	</tspan><tspan x="0" y="243.6" class="st6 st7">   licensors and ensuring acceptable print quality.</tspan><tspan x="0" y="255.6" class="st6 st7">·  Personally handle accounts for HBO, Showtime, and other major networks </tspan><tspan x="347.4" y="255.6" class="st6 st7 st21">	</tspan><tspan x="357.2" y="255.6" class="st6 st7">   </tspan><tspan x="364.8" y="255.6" class="st6 st7 st15">	</tspan><tspan x="0" y="267.6" class="st6 st7">   for setting up designs, providing product information, and shipping out </tspan><tspan x="331.5" y="267.6" class="st6 st7 st22">	</tspan><tspan x="357.2" y="267.6" class="st6 st7">   </tspan><tspan x="364.8" y="267.6" class="st6 st7 st15">	</tspan><tspan x="0" y="279.6" class="st6 st7">   samples.</tspan></text>
+<g>
+	<rect x="2.4" y="28.6" width="360.2" height="1"/>
+</g>
+<g>
+	<rect x="2.4" y="142.4" width="208" height="1"/>
+</g>
+<g>
+	<rect x="443.9" y="28.6" width="168.5" height="1"/>
+</g>
+<g>
+	<rect x="209.9" y="388.7" width="95.8" height="1"/>
+</g>
+<g>
+	<rect x="499.6" y="388.7" width="111.5" height="1"/>
+</g>
+<rect x="341.6" y="22.7" class="st1" width="124.3" height="19.8"/>
+<text transform="matrix(1 0 0 1 374.6667 34.272)" class="st6 st23">projects</text>
+<rect x="312.6" y="380.6" class="st1" width="181.2" height="19.8"/>
+<text transform="matrix(1 0 0 1 316.2945 392.1143)" class="st6 st23">professional experience</text>
+</svg>
