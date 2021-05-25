@@ -19,7 +19,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -35,7 +35,7 @@
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   h1 {
@@ -68,12 +68,12 @@
   }
   
   button[type="submit"] {
-    background-color: rgb(105, 16, 16);
+    background-color: #016b6b;
     
   }
   
   button[type="submit"]:hover {
-    background-color: rgb(185, 10, 10);
+    background-color: #00ffff;
   }
   
   /* FOOTER */
@@ -120,7 +120,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -135,7 +135,7 @@
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   h1 {
@@ -168,12 +168,12 @@
   }
   
   button[type="submit"] {
-    background-color: rgb(105, 16, 16);
+    background-color: #016b6b;
     
   }
   
   button[type="submit"]:hover {
-    background-color: rgb(185, 10, 10);
+    background-color: #00ffff;
   }
   
   /* FOOTER */
@@ -221,7 +221,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -235,7 +235,7 @@
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   h1 {
@@ -268,12 +268,12 @@
   }
   
   button[type="submit"] {
-    background-color: rgb(105, 16, 16);
+    background-color: #016b6b;
     
   }
   
   button[type="submit"]:hover {
-    background-color: rgb(185, 10, 10);
+    background-color: #00ffff;
   }
   
   /* FOOTER */
@@ -324,7 +324,7 @@ the menu options will center align */
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -342,7 +342,7 @@ the menu options will center align */
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   h1 {
@@ -371,11 +371,11 @@ the menu options will center align */
   }
   
   button[type="submit"] {
-    background-color: rgb(105, 16, 16);
+    background-color: #016b6b;
   }
   
   button[type="submit"]:hover {
-    background-color: rgb(185, 10, 10);
+    background-color: #00ffff;
   }
   
   /* FOOTER */

@@ -1,1 +1,19 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 251.04 246.96"><defs><style>.cls-1{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#fff;}.cls-4{fill:#ac2100;}</style><clipPath id="clip-path" transform="translate(-23.48 -22.85)"><circle class="cls-1" cx="146.84" cy="146.36" r="122.77"/></clipPath></defs><g class="cls-2"><image width="3175" height="3175" transform="translate(0) scale(0.08)" xlink:href="b%26w_me.jpg"/></g><path class="cls-3" d="M171.22,178.3l10.46,27.41v26.4a25.42,25.42,0,0,0,25.41,25.42h43.85a22.92,22.92,0,0,0,22.92-22.92v-16.7a24.66,24.66,0,0,0-24.66-24.66H193.39Z" transform="translate(-23.48 -22.85)"/><path d="M250.94,258.18H207.09A26.09,26.09,0,0,1,181,232.11V205.83l-11.15-29.22,23.71,16H249.2a25.34,25.34,0,0,1,25.32,25.31v16.7A23.61,23.61,0,0,1,250.94,258.18ZM172.56,180l9.77,25.6v26.52a24.79,24.79,0,0,0,24.76,24.77h43.85a22.29,22.29,0,0,0,22.27-22.27v-16.7a24,24,0,0,0-24-24h-56Z" transform="translate(-23.48 -22.85)"/><path class="cls-4" d="M228.5,228.57v14.14h-4.56V228.83c0-4.08-2.51-6.7-5.91-6.7s-7.49,2-7.49,7.33v13.25H206V205h4.56v17c1.46-3,5.44-4.34,8.11-4.34C224.73,217.63,228.55,221.71,228.5,228.57Z" transform="translate(-23.48 -22.85)"/><path class="cls-4" d="M234.1,209.25a3.23,3.23,0,1,1,3.19,3A3.11,3.11,0,0,1,234.1,209.25Zm.94,33.46V218.26h4.56v24.45Z" transform="translate(-23.48 -22.85)"/><path class="cls-4" d="M246,240.2a3.24,3.24,0,0,1,3.3-3.25,3.3,3.3,0,0,1,3.41,3.25,3.25,3.25,0,0,1-3.41,3.14A3.19,3.19,0,0,1,246,240.2Zm1.58-7.91-.48-25.66h4.56l-.47,25.66Z" transform="translate(-23.48 -22.85)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 288 288" style="enable-background:new 0 0 288 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#016B6B;stroke-width:3;stroke-miterlimit:10;}
+	.st1{fill:#00FFFF;}
+</style>
+<path class="st0" d="M13.6,26.2l24.1,63.1v60.8c0,32.3,26.2,58.5,58.5,58.5h101c29.2,0,52.8-23.6,52.8-52.8v-38.5
+	c0-31.4-25.4-56.8-56.8-56.8H64.7L13.6,26.2z"/>
+<g>
+	<path class="st1" d="M145.6,142.1v32.6h-10.5v-32c0-9.4-5.8-15.4-13.6-15.4c-7.8,0-17.3,4.7-17.3,16.9v30.5H93.7v-87h10.5v39.2
+		c3.4-6.9,12.5-10,18.7-10C136.9,116.8,145.7,126.3,145.6,142.1z"/>
+	<path class="st1" d="M158.5,97.5c0-4,3.4-7,7.4-7c4.1,0,7.5,3,7.5,7c0,4-3.4,7-7.5,7C161.9,104.5,158.5,101.5,158.5,97.5z
+		 M160.7,174.6v-56.3h10.5v56.3H160.7z"/>
+	<path class="st1" d="M185.9,168.8c0-4.3,3.5-7.5,7.6-7.5c4.2,0,7.8,3.1,7.8,7.5c0,4.2-3.6,7.2-7.8,7.2
+		C189.4,176.1,185.9,173.1,185.9,168.8z M189.5,150.6l-1.1-59.1h10.5l-1.1,59.1H189.5z"/>
+</g>
+</svg>

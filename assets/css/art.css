@@ -3,7 +3,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -19,7 +19,7 @@
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   .web-projects {
@@ -39,18 +39,18 @@
     display: block;
     width: 75%;
   height: 3px;
-  background:rgb(105, 16, 16);
+  background:#016b6b;
   position: absolute;
   left: 30%;
   }
   
   .web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
   
   .web::after {
     content: 'PROJECTS';
-    color: rgb(105, 16, 16);
+    color: #016b6b;
     top: 15px;
     left: 10px;
     font-weight: 700;
@@ -174,7 +174,7 @@
     }
     
     .navbar-custom .nav-link {
-      color: rgb(185, 10, 10) !important;
+      color: #00ffff !important;
       font-family: neuzeit-grotesk, sans-serif;
       font-weight: 200;
       font-style: normal;
@@ -189,7 +189,7 @@
     }
     
     .navbar-custom .nav-link a:hover {
-      color: rgb(105, 16, 16);
+      color: #016b6b;
     }
     
     .web-projects {
@@ -209,18 +209,18 @@
       display: block;
       width: 75%;
     height: 3px;
-    background:rgb(105, 16, 16);
+    background:#016b6b;
     position: absolute;
     left: 35%;
     }
     
     .web {
-      color: rgb(185, 10, 10);
+      color: #00ffff;
     }
     
     .web::after {
       content: 'PROJECTS';
-      color: rgb(105, 16, 16);
+      color: #016b6b;
       top: 30px;
       left: 20px;
       font-weight: 700;
@@ -277,7 +277,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: rgb(185, 10, 10) !important;
+    color: #00ffff !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -291,7 +291,7 @@
   }
   
   .navbar-custom .nav-link a:hover {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
   
   .web-projects {
@@ -311,18 +311,18 @@
     display: block;
     width: 75%;
   height: 3px;
-  background:rgb(105, 16, 16);
+  background:#016b6b;
   position: absolute;
   left: 35%;
   }
   
   .web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
   
   .web::after {
     content: 'PROJECTS';
-    color: rgb(105, 16, 16);
+    color: #016b6b;
     top: 35px;
     left: 25px;
     font-weight: 700;
@@ -378,7 +378,7 @@
 }
 
 .navbar-custom .nav-link {
-  color: rgb(185, 10, 10) !important;
+  color: #00ffff !important;
   font-family: neuzeit-grotesk, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -396,7 +396,7 @@
 }
 
 .navbar-custom .nav-link a:hover {
-  color: rgb(105, 16, 16);
+  color: #016b6b;
 }
 
 .web-projects {
@@ -416,18 +416,18 @@
   display: block;
   width: 75%;
 height: 3px;
-background:rgb(105, 16, 16);
+background:#016b6b;
 position: absolute;
 left: 30%;
 }
 
 .web {
-  color: rgb(185, 10, 10);
+  color: #00ffff;
 }
 
 .web::after {
   content: 'PROJECTS';
-  color: rgb(105, 16, 16);
+  color: #016b6b;
   top: 30px;
   left: 30px;
   font-weight: 700;

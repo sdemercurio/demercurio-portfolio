@@ -1,9 +1,9 @@
 #web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projects {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
 
   .head {
@@ -55,7 +55,7 @@
     border-radius: 20px;
     height: 5px;
     /* Set the hr color */
-    color: rgb(109, 17, 17); /* old IE */
+    color: #016b6b; /* old IE */
     background-color: rgb(116, 12, 12); /* Modern Browsers */
   }
 
@@ -68,7 +68,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projectDescRight {
@@ -95,7 +95,7 @@
     line-height: 1rem;
     text-align: right;
     float: right;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
     position: relative;
     z-index: 1;
   }
@@ -120,7 +120,7 @@
     font-style: normal;
     font-size: 2.5vw;
     text-align: right;
-    color: rgb(109, 17, 17);
+    color: #016b6b;
     display: inline-block;
     margin: 0 15px 0 0;
   }
@@ -128,11 +128,11 @@
 
 @media (min-width: 480px) {
   #web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projects {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
 
   .head {
@@ -184,7 +184,7 @@
     border-radius: 20px;
     height: 5px;
     /* Set the hr color */
-    color: rgb(109, 17, 17); /* old IE */
+    color: #016b6b; /* old IE */
     background-color: rgb(116, 12, 12); /* Modern Browsers */
   }
 
@@ -197,7 +197,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projectDescRight {
@@ -224,7 +224,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
     position: relative;
     z-index: 1;
   }
@@ -249,7 +249,7 @@
     font-style: normal;
     font-size: 2.5vw;
     text-align: right;
-    color: rgb(109, 17, 17);
+    color: #016b6b;
     display: inline-block;
     margin: 0 15px 0 0;
   }
@@ -257,11 +257,11 @@
 
 @media (min-width: 769px) {
   #web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projects {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
 
   .head {
@@ -315,7 +315,7 @@
     border-radius: 20px;
     height: 5px;
     /* Set the hr color */
-    color: rgb(109, 17, 17); /* old IE */
+    color: #016b6b; /* old IE */
     background-color: rgb(116, 12, 12); /* Modern Browsers */
   }
 
@@ -328,7 +328,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projectDescRight {
@@ -355,7 +355,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
     position: relative;
     z-index: 1;
   }
@@ -380,7 +380,7 @@
     font-style: normal;
     font-size: 1vw;
     text-align: right;
-    color: rgb(109, 17, 17);
+    color: #016b6b;
     display: inline-block;
     margin: 15px 15px 0 0;
   }
@@ -389,11 +389,11 @@
 
 @media (min-width: 1000px) {
   #web {
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projects {
-    color: rgb(105, 16, 16);
+    color: #016b6b;
   }
 
   .head {
@@ -447,7 +447,7 @@
     border-radius: 20px;
     height: 5px;
     /* Set the hr color */
-    color: rgb(109, 17, 17); /* old IE */
+    color: #016b6b; /* old IE */
     background-color: rgb(116, 12, 12); /* Modern Browsers */
   }
 
@@ -460,7 +460,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
   }
 
   #projectDescRight {
@@ -489,7 +489,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: rgb(185, 10, 10);
+    color: #00ffff;
     position: relative;
     z-index: 1;
   }
@@ -514,7 +514,7 @@
     font-style: normal;
     font-size: 1vw;
     text-align: right;
-    color: rgb(109, 17, 17);
+    color: #016b6b;
     display: inline-block;
     margin: 15px 15px 0 0;
   }
