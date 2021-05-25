@@ -1,3 +1,9 @@
+.html {
+  width: 100vw
+}
+
+
+
 .navbar-custom {
     background-color: rgb(225, 248, 252);
   }
@@ -26,10 +32,11 @@
     font-family: novecento-sans-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 9vw;
+    font-size: 12vw;
     line-height: 25px;
     letter-spacing: -2px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     position: relative;
     
   }
@@ -37,11 +44,11 @@
   .web-projects::after {
     content: '';
     display: block;
-    width: 75%;
+    width: 15%;
   height: 3px;
   background:#016b6b;
   position: absolute;
-  left: 30%;
+  left: 45%;
   }
   
   .web {
@@ -51,13 +58,13 @@
   .web::after {
     content: 'PROJECTS';
     color: #016b6b;
-    top: 15px;
+    top: 25px;
     left: 10px;
     font-weight: 700;
     font-style: normal;
   font-style: normal;
   font-style: normal;
-    font-size: 9vw;
+    font-size: 12vw;
     position:absolute;
     z-index: -2;
   }
@@ -72,9 +79,7 @@
   
   .ills {
     height: auto;
-    width: auto;
-    max-width: 100%;
-    max-height: auto;
+    width:300px;
   }
 
   .subhead {
@@ -100,47 +105,41 @@
       font-weight: 200;
       font-style: normal;
       font-size: 18px;
-      margin-left: 10rem;
       margin-top: 15px;
   }
 
   #digi-sarah {
-    height: 500px;
-    width:auto;
-    margin-left: 15px;
-    float: right;
+    height: auto;
+    width:300px;
   }
 
   #contact {
-    height: 500px;
-    width:auto;
+    height: auto;
+    width:300px;
   }
 
   #geo {
-    height: 500px;
-    width:auto;
+    height: auto;
+    width:300px;
     margin-top: 40px;
 
   }
 
   #spring {
     height: auto;
-    width:90%;
-    float: right;
+    width:300px;
     margin-top: 8rem;
   }
 
   #cupcake {
-    height: 500px;
-    width:auto;
+    height: auto;
+    width:300px;
     margin-top: 40px;
   }
 
   #zombie {
-    height: 500px;
-    width:auto;
-    margin-left: 55px;
-    float: right;
+    height: auto;
+    width:300px;
     margin-top: 40px;
     
   }
@@ -163,7 +162,7 @@
     color: darkgrey;
   }
 
-  @media (min-width: 480px) {
+  @media screen and (min-width: 600px) {
     .navbar {
       margin-bottom: 50px;
       overflow: auto;
@@ -240,11 +239,70 @@
        margin: 3rem 0 1rem 1rem;
     }
     
-    .ills {
+
+    .subhead {
+      font-family: neuzeit-grotesk, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 15px;
+    
+    }
+  
+    .subhead2 {
+      font-family: neuzeit-grotesk, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 50px;
+        
+    }
+  
+    .subhead-right {
+      font-family: neuzeit-grotesk, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+  
+    #digi-sarah {
       height: auto;
-      width: auto;
-      max-width: 100%;
-      max-height: auto;
+      width:700px;
+      margin-top: 35rem;
+      margin-left: -21rem;
+    }
+  
+    #contact {
+      height: auto;
+      width:700px;
+    }
+  
+    #geo {
+      height: auto;
+      width:700px;
+  
+    }
+  
+    #spring {
+      height: auto;
+      width:700px;
+      margin-top: 62rem;
+      margin-left: -14rem;
+    }
+  
+    #cupcake {
+      height: auto;
+      width:700px;
+      margin-top: 40px;
+    }
+  
+    #zombie {
+      height: auto;
+      width:700px;
+      margin-top: 60rem;
+      margin-left: -21rem;
+      
     }
     
      /* FOOTER */
@@ -266,7 +324,7 @@
     }
   }
 
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
   .navbar {
     margin-bottom: 50px;
     overflow: auto;
@@ -368,7 +426,7 @@
   }
   }
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
 .navbar {
   margin-bottom: 50px;
 }
@@ -403,7 +461,7 @@
   font-family: novecento-sans-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 5vw;
+  font-size: 7vw;
   line-height: 25px;
   letter-spacing: -2px;
   margin-bottom: 70px;
@@ -418,7 +476,7 @@
 height: 3px;
 background:#016b6b;
 position: absolute;
-left: 30%;
+left: 40%;
 }
 
 .web {
@@ -428,13 +486,13 @@ left: 30%;
 .web::after {
   content: 'PROJECTS';
   color: #016b6b;
-  top: 30px;
+  top: 50px;
   left: 30px;
   font-weight: 700;
   font-style: normal;
 font-style: normal;
 font-style: normal;
-  font-size: 4vw;
+  font-size: 7vw;
   position:absolute;
   z-index: -2;
 }
@@ -452,6 +510,74 @@ font-style: normal;
   width: auto;
   max-width: 100%;
   max-height: auto;
+}
+
+.subhead {
+  font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 15px;
+
+}
+
+.subhead2 {
+  font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 50px;
+    
+}
+
+.subhead-right {
+  font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 10rem;
+    margin-top: 15px;
+}
+
+#digi-sarah {
+  height: 500px;
+  width:auto;
+  margin-left: 15px;
+  float: right;
+}
+
+#contact {
+  height: 500px;
+  width:auto;
+}
+
+#geo {
+  height: 500px;
+  width:auto;
+  margin-top: 40px;
+
+}
+
+#spring {
+  height: auto;
+  width:90%;
+  float: right;
+  margin-top: 8rem;
+}
+
+#cupcake {
+  height: 500px;
+  width:auto;
+  margin-top: 40px;
+}
+
+#zombie {
+  height: 500px;
+  width:auto;
+  margin-left: 55px;
+  float: right;
+  margin-top: 40px;
+  
 }
 
  /* FOOTER */
