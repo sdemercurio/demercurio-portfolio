@@ -126,7 +126,7 @@
   }
 
 
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   #web {
     color: #00ffff;
   }
@@ -255,7 +255,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
   #web {
     color: #00ffff;
   }
@@ -387,7 +387,7 @@
 }
 
 
-@media (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
   #web {
     color: #00ffff;
   }
@@ -428,6 +428,14 @@
   #nalej:hover,
   #watt:hover {
     filter: saturate(100%);
+  }
+
+  #vax-image {
+    float:right;
+  }
+
+  #vax-desc {
+    float:left;
   }
 
   #octocatRight {
