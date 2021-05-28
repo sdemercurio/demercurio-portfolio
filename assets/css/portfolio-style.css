@@ -1,5 +1,5 @@
 #web {
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projects {
@@ -68,7 +68,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projectDescRight {
@@ -95,7 +95,7 @@
     line-height: 1rem;
     text-align: right;
     float: right;
-    color: #00ffff;
+    color: #1dc9c9;
     position: relative;
     z-index: 1;
   }
@@ -128,7 +128,7 @@
 
 @media screen and (min-width: 480px) {
   #web {
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projects {
@@ -197,7 +197,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projectDescRight {
@@ -224,7 +224,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: #00ffff;
+    color: #1dc9c9;
     position: relative;
     z-index: 1;
   }
@@ -257,7 +257,7 @@
 
 @media screen and (min-width: 769px) {
   #web {
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projects {
@@ -328,7 +328,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projectDescRight {
@@ -355,7 +355,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: #00ffff;
+    color: #1dc9c9;
     position: relative;
     z-index: 1;
   }
@@ -389,7 +389,7 @@
 
 @media screen and (min-width: 1000px) {
   #web {
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projects {
@@ -468,7 +468,7 @@
     width: 100%;
     line-height: 2rem;
     text-align: left;
-    color: #00ffff;
+    color: #1dc9c9;
   }
 
   #projectDescRight {
@@ -497,7 +497,7 @@
     line-height: 1.5rem;
     text-align: right;
     float: right;
-    color: #00ffff;
+    color: #1dc9c9;
     position: relative;
     z-index: 1;
   }

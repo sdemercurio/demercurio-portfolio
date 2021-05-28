@@ -5,7 +5,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: #00ffff !important;
+    color: #6fccdd !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -73,7 +73,7 @@
   }
 
   .sarah {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .sarah::after {
@@ -109,7 +109,7 @@
   }
 
   .web {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .web::after {
@@ -203,7 +203,7 @@
   }
   
   .navbar-custom .nav-link {
-    color: #00ffff !important;
+    color: #6fccdd !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -274,7 +274,7 @@
   }
 
   .sarah {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .sarah::after {
@@ -315,7 +315,7 @@
   }
 
   .web {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .web::after {
@@ -404,7 +404,7 @@
   }
 
   .navbar-custom .nav-link {
-    color: #00ffff !important;
+    color: #6fccdd !important;
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -449,16 +449,16 @@
     width: auto;
     float: right;
     position: absolute;
-    top: 6rem;
+    top: 5rem;
     left: 15rem;
   }
 
   #hi {
-    height: 18rem;
+    height: 12rem;
     width: auto;
     float: right;
     position: absolute;
-    top: 22rem;
+    top: 19rem;
     left: 30rem;
   }
 
@@ -472,7 +472,7 @@
   }
 
   .sarah {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .sarah::after {
@@ -513,7 +513,7 @@
   }
 
   .web {
-    color: #00ffff;
+    color: #6fccdd;
   }
 
   .web::after {
@@ -549,7 +549,7 @@
   .bigS {
     height: 60%;
     width: auto;
-    margin-left: 30px;
+    margin-left: 12rem;
   }
 
   #favoriteThings {
