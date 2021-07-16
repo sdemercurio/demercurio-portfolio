@@ -144,29 +144,29 @@ body {
     
     
     .navbar-custom {
-        background-color: rgb(225, 248, 252);
-      }
+      background-color: rgb(225, 248, 252);
+    }
+    
+    .navbar-custom .nav-link {
+      color: #00ffff !important;
+      font-family: neuzeit-grotesk, sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      font-size: 30px;
+      margin-bottom: -25px;
+    }
+    
+    
+    .navbar-custom .s-initial {
+      height: 65px;
+      width: auto;
       
-      .navbar-custom .nav-link {
-        color: #6fccdd !important;
-        font-family: neuzeit-grotesk, sans-serif;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 30px;
-        margin-bottom: -25px;
-      }
-      
-      
-      .navbar-custom .s-initial {
-        height: 65px;
-        width: auto;
-        
-      }
-      
-      .navbar-custom .nav-link a:hover {
-        color: #016b6b;
-      }
-      
+    }
+    
+    .navbar-custom .nav-link a:hover {
+      color: #016b6b;
+    }
+    
       .web-projects {
         font-family: novecento-sans-condensed, sans-serif;
         font-weight: 700;
