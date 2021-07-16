@@ -74,6 +74,7 @@ body {
     border: none;
     margin-bottom: 2rem;
     border-radius: 10px !important;
+    width: 18rem;
   }
   
   .art-head {
@@ -166,7 +167,7 @@ body {
     .navbar-custom .nav-link a:hover {
       color: #016b6b;
     }
-    
+
       .web-projects {
         font-family: novecento-sans-condensed, sans-serif;
         font-weight: 700;
@@ -212,7 +213,7 @@ body {
         border: none;
         margin-bottom: 2rem;
         border-radius: 10px !important;
-        width: 22rem;
+        width: 33rem;
       }
       
       .art-head {
