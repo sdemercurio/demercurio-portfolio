@@ -57,14 +57,12 @@ body {
   }
   
   .web::after {
-    content: 'PROJECTS';
+    content: 'Work';
     color: #016b6b;
     top: 2rem;
     left: 2rem;
     font-weight: 700;
     font-style: normal;
-  font-style: normal;
-  font-style: normal;
     font-size: 12vw;
     position:absolute;
     z-index: -2;
@@ -76,6 +74,11 @@ body {
     border-radius: 10px !important;
     width: 18rem;
   }
+
+  .art-card {
+    display: flex;
+    flex-direction: column;
+  }
   
   .art-head {
     font-family: neuzeit-grotesk, sans-serif;
@@ -84,35 +87,22 @@ body {
       font-size: 7vw;
      margin: 3rem 0 1rem 1rem;
   }
-  
-  .ills {
-    height: auto;
+
+  .artwork {
+    background-color: #016b6b;
+    color: white;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-size: 22px;
+    width: 75% !important;
   }
 
-  .subhead {
-    font-family: neuzeit-grotesk, sans-serif;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 18px;
-      margin-top: 15px;
-  
+  .art-card-body {
+    justify-content: center;
+    text-align: center;
   }
 
-  .subhead2 {
-    font-family: neuzeit-grotesk, sans-serif;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 18px;
-      margin-top: 50px;
-      
-  }
-
-  .subhead-right {
-    font-family: neuzeit-grotesk, sans-serif;
-      font-weight: 200;
-      font-style: normal;
-      font-size: 18px;
-      margin-top: 15px;
+  .logobrand {
+    margin: 0 5% 0 5%;
   }
   
    /* FOOTER */
@@ -136,7 +126,78 @@ body {
     color: darkgrey;
   }
 
-  @media screen and (min-width: 1200px) {
+  .categories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logobrand {
+    margin-top: 5%;
+  }
+
+  .logobrand > h2 {
+    font-family: neuzeit-grotesk, sans-serif;
+          font-weight:bold;
+          font-style: normal;
+          font-size: 14px;
+          color:#016b6b;
+  }
+
+  .logobrand > p {
+    font-family: neuzeit-grotesk, sans-serif;
+          font-weight:lighter;
+          font-style: normal;
+          font-size: 10px;
+  }
+
+  .FortyWatt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 767px) {
+    body {
+      width: 100vw;
+      overflow-x: hidden;
+    }
+    
+      .art-card {
+        border: none;
+        margin-bottom: 2rem;
+        border-radius: 10px !important;
+        width: 40rem;
+        justify-content: space-evenly;
+      }
+
+      .art-card-title {
+        font-family: neuzeit-grotesk, sans-serif;
+          font-weight:lighter;
+          font-style: normal;
+          font-size: 40px;
+          margin: 5% 0 5% 0;
+      }
+      
+      .art-head {
+        font-family: neuzeit-grotesk, sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 3vw;
+         margin: 3rem 0 1rem 1rem;
+      }
+
+      .categories {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin: 10% 0 10% 0;
+      }
+  
+}
+
+
+  @media screen and (min-width: 992px) {
     body {
       width: 100vw;
       overflow-x: hidden;
@@ -196,14 +257,12 @@ body {
       }
       
       .web::after {
-        content: 'PROJECTS';
+        content: 'Work';
         color: #016b6b;
         top: 4rem;
         left: 2rem;
         font-weight: 700;
         font-style: normal;
-      font-style: normal;
-      font-style: normal;
         font-size: 10rem;
         position:absolute;
         z-index: -2;
@@ -213,7 +272,15 @@ body {
         border: none;
         margin-bottom: 2rem;
         border-radius: 10px !important;
-        width: 33rem;
+        
+      }
+
+      .art-card-title {
+        font-family: neuzeit-grotesk, sans-serif;
+          font-weight:lighter;
+          font-style: normal;
+          font-size: 30px;
+          margin: 5% 0 5% 0;
       }
       
       .art-head {
@@ -223,37 +290,7 @@ body {
           font-size: 3vw;
          margin: 3rem 0 1rem 1rem;
       }
-      
-      .ills {
-        height: auto;
-
-      }
-    
-      .subhead {
-        font-family: neuzeit-grotesk, sans-serif;
-          font-weight: 200;
-          font-style: normal;
-          font-size: 18px;
-          margin-top: 15px;
-      
-      }
-    
-      .subhead2 {
-        font-family: neuzeit-grotesk, sans-serif;
-          font-weight: 200;
-          font-style: normal;
-          font-size: 18px;
-          margin-top: 50px;
-          
-      }
-    
-      .subhead-right {
-        font-family: neuzeit-grotesk, sans-serif;
-          font-weight: 200;
-          font-style: normal;
-          font-size: 18px;
-          margin-top: 15px;
-      }
+  
       
        /* FOOTER */
        .artFooter {
@@ -274,6 +311,46 @@ body {
       
       i:hover {
         color: darkgrey;
+      }
+
+      .categories, .art-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10% 0 10% 0;
+      }
+
+      .FortyWatt {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+      }
+
+      .logobrand {
+        justify-content: space-between;
+      }
+
+      .logobrand > h2 {
+        font-family: neuzeit-grotesk, sans-serif;
+              font-weight:bold;
+              font-style: normal;
+              font-size: 40px;
+      }
+    
+      .logobrand > p {
+        font-family: neuzeit-grotesk, sans-serif;
+              font-weight:lighter;
+              font-style: normal;
+              font-size: 20px;
+      }
+
+      /* .alyia-card-img-top {
+        height: 300px;
+      } */
+
+      .billboard {
+        width: 450px;
+        height: auto;
       }
   
 }
