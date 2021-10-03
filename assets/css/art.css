@@ -104,6 +104,8 @@ body {
   .logobrand {
     margin: 0 5% 0 5%;
   }
+
+
   
    /* FOOTER */
    .artFooter {
@@ -154,6 +156,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
   }
 
   @media screen and (min-width: 767px) {
@@ -203,10 +206,13 @@ body {
       overflow-x: hidden;
     }
     
-    
+    #alyia-row {
+      margin-top: -10%;
+    }
     
     .navbar-custom {
       background-color: rgb(225, 248, 252);
+      padding: 3%;
     }
     
     .navbar-custom .nav-link {
@@ -323,7 +329,7 @@ body {
       .FortyWatt {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
       }
 
       .logobrand {
@@ -342,6 +348,7 @@ body {
               font-weight:lighter;
               font-style: normal;
               font-size: 20px;
+              margin-bottom: 5%;
       }
 
       /* .alyia-card-img-top {

@@ -17,11 +17,15 @@
   .navbar-custom .s-initial {
     height: 65px;
     width: auto;
-    
+    padding: 10%;
   }
   
   .navbar-custom .nav-link a:hover {
     color: #016b6b;
+  }
+
+  #art-nav {
+    padding: 5% !important;
   }
 
   /* Container */
@@ -213,7 +217,7 @@
   .navbar-custom .s-initial {
     height: 75px;
     width: auto;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 10%;
   }
   
   .navbar-custom .nav-link a:hover {
