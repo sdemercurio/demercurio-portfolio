@@ -12,52 +12,7 @@
     margin-bottom: 100px;
 }
 
-  /* NAV BAR */
-
-  .navbar {
-    margin-bottom: 50px;
-  }
-
-  .navbar-custom {
-    background-color: rgb(225, 248, 252);
-  }
-
-  .navbar-custom .nav-link {
-    color: #00ffff;
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 30px;
-  }
-
   .resume-link {
     margin-right: 40px;
   }
 
-  .navbar-custom .s-initial {
-    height: 75px;
-    width: auto;
-    margin: 20px 0 0 60px;
-  }
-
-  .navbar-custom .nav-link a:hover {
-    color: #016b6b;
-  }
-
-  /* FOOTER */
-  .footer {
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-    margin-bottom: 40px;
-  }
-
-  i {
-    color: black;
-    font-size: 30px;
-    margin: 20px 10px 0 0;
-  }
-
-  i:hover {
-    color: darkgrey;
-  }

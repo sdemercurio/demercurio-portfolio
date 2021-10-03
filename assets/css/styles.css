@@ -14,15 +14,31 @@
   }
   
   
+.resume {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+  .resume-link {
+    margin-right: 40px;
+  }
+
+
+
   .navbar-custom .s-initial {
     height: 65px;
     width: auto;
     padding: 10%;
   }
-  
-  .navbar-custom .nav-link a:hover {
-    color: #016b6b;
+
+  .navbar-nav > a:hover {
+    color: #016b6b !important;
   }
+
 
   #art-nav {
     padding: 5% !important;
@@ -36,17 +52,17 @@
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5rem;
-    margin-top: 22rem;
+    margin-top: 15%;
     margin-left: 30px;
   }
 
   /* Images */
 
-  .greeting {
-    top: -22rem;
-    margin-left: 30px;
+  #intro-image {
+    display: flex;
+    flex-direction: column;
   }
 
   #portrait {
@@ -54,16 +70,7 @@
     height: 14rem;
     width: auto;
     float: right;
-    position: absolute;
-  }
-
-  #hi {
-    height: 8rem;
-    width: auto;
-    float: right;
-    position: absolute;
-    top: 8rem;
-    left: 10rem;
+    margin-top: 15%;
   }
 
   #my-name {
@@ -131,14 +138,14 @@
   }
 
   #sectionOne {
-    height: 100vh;
+    height: 50%;
     width: 100vw;
   }
 
   .fade-in {
     opacity: 0;
     transform: translateY(20vh);
-    visibility: hidden;
+    visibility: visible;
     transition: opacity 0.6s ease-out, transform 1.2s ease-out;
     will-change: opacity, visibility;
   }
@@ -192,398 +199,49 @@
     color: darkgrey;
   }
 
+  .disclaimer {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-top: 5%;
+  }
+
 
 
 @media screen and (min-width: 768px) {
-  /* NAV BAR */
 
-  .navbar {
-    margin-bottom: 50px;
-    overflow: auto;
+  #intro-image {
+    display: flex;
+    flex-direction: row;
   }
   
-  .navbar-custom {
-    background-color: rgb(225, 248, 252);
-  }
-  
-  .navbar-custom .nav-link {
-    color: #6fccdd !important;
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 30px;
-  }
-  
-  .navbar-custom .s-initial {
-    height: 75px;
-    width: auto;
-    margin: 0 0 0 10%;
-  }
-  
-  .navbar-custom .nav-link a:hover {
-    color: #016b6b;
-  }
-
-  /* Container */
-
-  /* About Me Section */
-
   #intro {
     font-family: neuzeit-grotesk, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 3vw;
-    width: 30%;
-    float: left;
-    padding-right: 6rem;
-    line-height: 2.5rem;
-    
+    font-size: 20px;
+    line-height: 1.5rem;
+    width: 50%;
   }
 
   /* Images */
 
-  #intro-image {
-  }
-
-  .greeting {
-    left: 18rem;
-    width: 30%;
-    height: auto;
-  }
-
   #portrait {
     border-radius: 50%;
-    height: 16rem;
+    height: 14rem;
     width: auto;
-    float: right;
-    position: absolute;
-  }
-
-  #hi {
-    height: 10rem;
-    width: auto;
-    float: right;
-    position: absolute;
-    margin-top: 3rem;
-    margin-left: 2rem;
-  }
-
-  #my-name {
-    font-family: novecento-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 90px;
-    line-height: 25px;
-    letter-spacing: -2px;
-  }
-
-  .sarah {
-    color: #6fccdd;
-  }
-
-  .sarah::after {
-    content: "DeMERCURIO";
-    color: #016b6b;
-    top: 6rem;
-    left: 30px;
-
-    font-weight: 700;
-
-    font-style: normal;
-    font-style: normal;
-    font-style: normal;
-    font-size: 90px;
-    position: absolute;
-    z-index: -2;
-  }
-
-  .web-projects {
-    font-family: novecento-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 5vw;
-    line-height: 25px;
-    letter-spacing: -2px;
-    margin-bottom: 70px;
-    position: relative;
-  }
-
-  .web-projects::after {
-    content: "";
-    display: block;
-    width: 75%;
-    height: 3px;
-    background: #016b6b;
-    position: absolute;
-    left: 30%;
-  }
-
-  .web {
-    color: #6fccdd;
-  }
-
-  .web::after {
-    content: "PROJECTS";
-    color: #016b6b;
-    top: 30px;
-    left: 30px;
-    font-weight: 700;
-    font-style: normal;
-    font-style: normal;
-    font-style: normal;
-    font-size: 5vw;
-    position: absolute;
-    z-index: -2;
-  }
-
-  #sectionOne {
-    height: 70vh;
-    width: 100vw;
-  }
-
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
-  }
-  .fade-in.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-
-  .bigS {
-    height: 60%;
-    width: auto;
-    margin-left: 30px;
-  }
-
-  #favoriteThings {
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 3vw;
-  }
-
-  .faves {
-    display: inline-block;
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.65vw;
-    text-align: left;
-  }
-
-  /* FOOTER */
-  .footer {
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-    margin-bottom: 40px;
-  }
-
-  i {
-    color: black;
-    font-size: 30px;
-    margin: 20px 10px 0 0;
-  }
-
-  i:hover {
-    color: darkgrey;
   }
 }
 
+  
 
-@media screen and (min-width: 1000px) {
-  /* NAV BAR */
 
-  .navbar {
-    margin-bottom: 50px;
-  }
+@media screen and (min-width: 992px) {
+ 
+}
 
-  .navbar-custom {
-    background-color: rgb(225, 248, 252);
-  }
-
-  .navbar-custom .nav-link {
-    color: #6fccdd !important;
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 30px;
-  }
-
-  .resume-link {
-    margin-right: 40px;
-  }
-
-  .navbar-custom .s-initial {
-    height: 75px;
-    width: auto;
-    margin: 20px 0 0 60px;
-  }
-
-  .navbar-custom .nav-link a:hover {
-    color: #016b6b;
-  }
-
-  /* Container */
-
-  /* About Me Section */
-
-  #intro {
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 40px;
-    width: 50%;
-    float: left;
-    padding-right: 6rem;
-    line-height: 2.5rem;
-    margin-top: 15%;
-  }
-
-  /* Images */
-
-  #portrait {
-    border-radius: 50%;
-    height: 28rem;
-    width: auto;
-    float: right;
-    position: absolute;
-    top: 5rem;
-    left: 15rem;
-  }
-
-  #hi {
-    height: 12rem;
-    width: auto;
-    float: right;
-    position: absolute;
-    top: 19rem;
-    left: 30rem;
-  }
-
-  #my-name {
-    font-family: novecento-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 8vw;
-    line-height: 25px;
-    letter-spacing: -2px;
-  }
-
-  .sarah {
-    color: #6fccdd;
-  }
-
-  .sarah::after {
-    content: "DeMERCURIO";
-    color: #016b6b;
-    top: 7rem;
-    left: 30px;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 8vw;
-    position: absolute;
-    z-index: -2;
-  }
-
-  .web-projects {
-    font-family: novecento-sans-condensed, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 5vw;
-    line-height: 25px;
-    letter-spacing: -2px;
-    margin-bottom: 70px;
-    position: relative;
-  }
-
-  .web-projects::after {
-    content: "";
-    display: block;
-    width: 75%;
-    height: 3px;
-    background: #016b6b;
-    position: absolute;
-    left: 30%;
-  }
-
-  .web {
-    color: #6fccdd;
-  }
-
-  .web::after {
-    content: "PROJECTS";
-    color: #016b6b;
-    top: 30px;
-    left: 30px;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 5vw;
-    position: absolute;
-    z-index: -2;
-  }
-
-  #sectionOne {
-    height: 70vh;
-    width: 100vw;
-  }
-
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20vh);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
-  }
-  .fade-in.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-
-  .bigS {
-    height: 60%;
-    width: auto;
-    margin-left: 12rem;
-  }
-
-  #favoriteThings {
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 600;
-    font-style: bold;
-    font-size: 3vw;
-    text-align: left;
-  }
-
-  .faves {
-    display: inline-block;
-    font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.65vw;
-    text-align: left;
-  }
-
-  /* FOOTER */
-  .footer {
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-    margin-bottom: 40px;
-  }
-
-  i {
-    color: black;
-    font-size: 30px;
-    margin: 20px 10px 0 0;
-  }
-
-  i:hover {
-    color: darkgrey;
-  }
+@media screen and (min-width: 1200px) {
+ 
 }
