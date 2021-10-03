@@ -18,13 +18,13 @@ body {
   }
   
   .design-projects::after {
-    content: '';
+    content: "";
     display: block;
-    width: 25%;
-  height: 3px;
-  background:#016b6b;
-  position: absolute;
-  left: 65%;
+    width: 75%;
+    height: 3px;
+    background: #016b6b;
+    position: absolute;
+    left: 40%;
   }
   
   .design {
