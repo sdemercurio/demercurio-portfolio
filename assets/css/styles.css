@@ -105,7 +105,7 @@
     font-size: 8vw;
     line-height: 25px;
     letter-spacing: -2px;
-    margin-bottom: 20px;
+    margin: 10% 0 10% 0;
     position: relative;
   }
 
@@ -126,11 +126,9 @@
   .web::after {
     content: "PROJECTS";
     color: #016b6b;
-    top: 15px;
+    margin-top: 5%;
     left: 30px;
     font-weight: 700;
-    font-style: normal;
-    font-style: normal;
     font-style: normal;
     font-size: 8vw;
     position: absolute;
