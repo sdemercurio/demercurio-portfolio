@@ -124,11 +124,7 @@ body {
     }
     
       .art-card {
-        border: none;
-        margin-bottom: 2rem;
-        border-radius: 10px !important;
-        width: 40rem;
-        justify-content: space-evenly;
+      
       }
 
       .art-card-title {
@@ -164,10 +160,6 @@ body {
       overflow-x: hidden;
     }
     
-    #alyia-row {
-     
-    }
-    
       .card {
         border: none;
         margin-bottom: 2rem;
@@ -192,7 +184,7 @@ body {
       }
 
 
-      .categories, .art-card {
+      .categories {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
