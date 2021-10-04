@@ -54,8 +54,9 @@
     font-style: normal;
     font-size: 20px;
     line-height: 1.5rem;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 30px;
+    letter-spacing: 1px;
   }
 
   /* Images */
@@ -63,21 +64,24 @@
   #intro-image {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+
 
   #portrait {
     border-radius: 50%;
-    height: 14rem;
+    height:18rem;
     width: auto;
     float: right;
-    margin-top: 15%;
+    margin-top: 20%;
+    margin-bottom: 10%;
   }
 
   #my-name {
     font-family: novecento-sans-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 8vw;
+    font-size: 4em;
     line-height: 10px;
     letter-spacing: -2px;
     margin-top: 3rem;
@@ -93,7 +97,7 @@
     margin-top: 5%;
     left: 30px;
     font-weight: 700;
-    font-size: 8vw;
+    font-size:1em;
     position: absolute;
     z-index: -2;
   }
@@ -102,7 +106,7 @@
     font-family: novecento-sans-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 8vw;
+    font-size: 4em;
     line-height: 25px;
     letter-spacing: -2px;
     margin: 10% 0 10% 0;
@@ -112,11 +116,11 @@
   .web-projects::after {
     content: "";
     display: block;
-    width: 75%;
+    width: 33%;
     height: 3px;
     background: #016b6b;
     position: absolute;
-    left: 40%;
+    right:0;
   }
 
   .web {
@@ -130,7 +134,7 @@
     left: 30px;
     font-weight: 700;
     font-style: normal;
-    font-size: 8vw;
+    font-size: 1em;
     position: absolute;
     z-index: -2;
   }
@@ -221,15 +225,42 @@
     font-style: normal;
     font-size: 20px;
     line-height: 1.5rem;
-    width: 50%;
+    width: 40%;
   }
 
   /* Images */
 
   #portrait {
     border-radius: 50%;
-    height: 14rem;
+    height: 20rem;
     width: auto;
+  }
+
+  .bigS {
+    margin-top: 4rem;
+    height: auto;
+    width: 30%;
+    padding-left: 15%;
+
+  }
+
+  #favoriteThings {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 60px 0 20px 0;
+  }
+
+  .faves {
+    display: inline-block;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10%;
   }
 }
 
@@ -241,5 +272,40 @@
 }
 
 @media screen and (min-width: 1200px) {
- 
+  .web-projects {
+    font-family: novecento-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4em;
+    line-height: 25px;
+    letter-spacing: -2px;
+    margin: 15% 0 2% 0;
+    position: relative;
+  }
+
+  .web-projects::after {
+    content: "";
+    display: block;
+    width: 65%;
+    height: 3px;
+    background: #016b6b;
+    position: absolute;
+    right:0;
+  }
+
+  .web {
+    color: #6fccdd;
+  }
+
+  .web::after {
+    content: "PROJECTS";
+    color: #016b6b;
+    margin-top: 3%;
+    left: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    position: absolute;
+    z-index: -2;
+  }
 }

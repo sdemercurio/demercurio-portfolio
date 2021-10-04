@@ -73,9 +73,11 @@
 
   #projectDescRight {
     font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
-    font-size: 3vw;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
     float: left;
     line-height: 1rem;
     text-align: left;
@@ -232,7 +234,7 @@
     font-style: normal;
     font-size: 1.25vw;
     float: left;
-    line-height: 1.5rem;
+    line-height: 1rem;
     text-align: left;
     color: black;
     margin-left: 10px;
@@ -281,4 +283,9 @@
     display: inline-block;
     margin: 15px 15px 0 0;
   }
+}
+
+@media screen and (min-width: 1200px) {
+
+  
 }
