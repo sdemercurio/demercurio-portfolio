@@ -111,6 +111,12 @@ body {
 
   }
 
+  .card > img {
+    filter: drop-shadow(0 0 0.75rem rgb(136, 136, 136));
+  }
+
+  
+
   @media screen and (min-width: 767px) {
     body {
       width: 100vw;
@@ -159,7 +165,7 @@ body {
     }
     
     #alyia-row {
-      margin-top: -10%;
+     
     }
     
       .card {
