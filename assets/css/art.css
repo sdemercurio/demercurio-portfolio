@@ -28,7 +28,7 @@ body {
   .design-projects::after {
     content: "";
     display: block;
-    width: 75%;
+    width: 50%;
     height: 3px;
     background: #016b6b;
     position: absolute;
@@ -91,6 +91,7 @@ body {
   .categories {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .logobrand {
@@ -135,6 +136,14 @@ body {
   margin-bottom:10%;
   }
 
+  .design-work-card {
+    margin-bottom: 10%;
+  }
+
+  .illustrations {
+    margin-top: 10%;
+  }
+
   @media screen and (min-width: 768px) {
     body {
       width: 100vw;
@@ -177,6 +186,10 @@ body {
     body {
       width: 100vw;
       overflow-x: hidden;
+    }
+
+    .design-work-card {
+      padding: 0 5px 0 5px;
     }
     
       .card {
@@ -244,6 +257,9 @@ body {
         height: auto;
       }
   
+      .logo-brand-card {
+        width: 28rem !important;
+      }
 }
 
 @media screen and (min-width: 1200px) {
