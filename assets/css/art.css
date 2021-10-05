@@ -341,4 +341,8 @@ body {
       flex-direction: row;
     }
 
+    #sconery-img {
+      width: 24rem !important;
+    }
+
 }
