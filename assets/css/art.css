@@ -43,22 +43,16 @@ body {
     z-index: -2;
   }
 
-  .design-work-card {
-    margin-bottom: 10%;
-  }
-
   .card {
     border: none;
     margin-bottom: 2rem;
     border-radius: 10px !important;
-
-    margin-left: 30%;
+    width: 18rem;
   }
 
   .art-card {
     display: flex;
     flex-direction: column;
-    
   }
   
   .art-head {
@@ -83,19 +77,16 @@ body {
   }
 
   .logobrand {
-  
+    margin: 0 5% 0 5%;
   }
 
   .categories {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
   }
 
   .logobrand {
     margin-top: 5%;
-    justify-content: center;
   }
 
   .logobrand > h2 {
@@ -117,12 +108,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    justify-content: center;
+
   }
 
   .card > img {
-    filter: drop-shadow(0 0 0.5rem rgb(136, 136, 136));
+    filter: drop-shadow(0 0 0.75rem rgb(136, 136, 136));
   }
 
   
