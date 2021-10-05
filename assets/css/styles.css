@@ -1,7 +1,11 @@
 
   /* NAV BAR */
   .navbar-custom {
-    background-color: rgb(225, 248, 252);
+    background-color: white !important;
+  }
+
+  .navbar {
+    width: 100% !important;
   }
   
   .navbar-custom .nav-link {
