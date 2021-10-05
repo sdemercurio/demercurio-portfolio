@@ -51,14 +51,14 @@ body {
     border: none;
     margin-bottom: 2rem;
     border-radius: 10px !important;
-    padding: 0 5% 0 5%;
+
     margin-left: 30%;
   }
 
   .art-card {
     display: flex;
     flex-direction: column;
-    padding: 0 0% 0 30%;
+    
   }
   
   .art-head {
@@ -83,7 +83,7 @@ body {
   }
 
   .logobrand {
-    margin: 0 5% 0 5%;
+  
   }
 
   .categories {
