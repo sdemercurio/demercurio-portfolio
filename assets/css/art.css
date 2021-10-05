@@ -1,6 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+
 body {
   width: 100vw;
   overflow-x: hidden;
+  
 }
 
   
@@ -46,13 +54,13 @@ body {
   .card {
     border: none;
     margin-bottom: 2rem;
-    border-radius: 10px !important;
-    width: 18rem;
+    justify-content: center;
   }
 
   .art-card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   
   .art-head {
@@ -60,7 +68,7 @@ body {
       font-weight: 400;
       font-style: normal;
       font-size: 7vw;
-     margin: 3rem 0 1rem 1rem;
+     
   }
 
   .artwork {
@@ -77,7 +85,7 @@ body {
   }
 
   .logobrand {
-    margin: 0 5% 0 5%;
+    padding: 0 5% 0 5%;
   }
 
   .categories {
@@ -93,7 +101,7 @@ body {
     font-family: neuzeit-grotesk, sans-serif;
           font-weight:bold;
           font-style: normal;
-          font-size: 14px;
+          font-size: 20px;
           color:#016b6b;
   }
 
@@ -101,14 +109,17 @@ body {
     font-family: neuzeit-grotesk, sans-serif;
           font-weight:lighter;
           font-style: normal;
-          font-size: 10px;
+          font-size: 14px;
+          line-height: 1em;
   }
 
   .FortyWatt {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
   }
 
   .card > img {
@@ -116,8 +127,15 @@ body {
   }
 
   
+  .logobrand-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  @media screen and (min-width: 767px) {
+  margin-bottom:10%;
+  }
+
+  @media screen and (min-width: 768px) {
     body {
       width: 100vw;
       overflow-x: hidden;
@@ -150,6 +168,7 @@ body {
         align-items: center;
         margin: 10% 0 10% 0;
       }
+
   
 }
 
@@ -225,4 +244,85 @@ body {
         height: auto;
       }
   
+}
+
+@media screen and (min-width: 1200px) {
+  .logobrand-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50rem;
+  margin-bottom: 5%;
+  }
+  
+    .card {
+      border: none;
+      margin-bottom: 2rem;
+      border-radius: 10px !important;
+      width: 30rem !important;
+    }
+
+    .art-card-title {
+      font-family: neuzeit-grotesk, sans-serif;
+        font-weight:lighter;
+        font-style: normal;
+        font-size: 30px;
+        margin: 5% 0 5% 0;
+    }
+    
+    .art-head {
+      font-family: neuzeit-grotesk, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3vw;
+       margin: 3rem 0 1rem 1rem;
+    }
+
+
+    .categories {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 10% 0 10% 0;
+    }
+
+    .FortyWatt {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .logobrand {
+      justify-content: space-between;
+    }
+
+    .logobrand > h2 {
+      font-family: neuzeit-grotesk, sans-serif;
+            font-weight:bold;
+            font-style: normal;
+            font-size: 40px;
+    }
+  
+    .logobrand > p {
+      font-family: neuzeit-grotesk, sans-serif;
+            font-weight:lighter;
+            font-style: normal;
+            font-size: 20px;
+            margin-bottom: 5%;
+    }
+
+    /* .alyia-card-img-top {
+      height: 300px;
+    } */
+
+    .billboard {
+      width: 100%;
+      height: auto;
+    }
+
+    .pontch-signs {
+      display: flex;
+      flex-direction: row;
+    }
+
 }

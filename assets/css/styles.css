@@ -27,9 +27,7 @@
     margin-bottom: 100px;
 }
 
-  .resume-link {
-    margin-right: 40px;
-  }
+
 
 
 
@@ -272,7 +270,9 @@
 
 
 @media screen and (min-width: 992px) {
- 
+  .resume-link {
+    margin-right: 40px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
